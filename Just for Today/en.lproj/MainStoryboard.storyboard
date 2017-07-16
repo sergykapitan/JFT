@@ -1,26 +1,142 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="SjC-LF-p87">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Just for Today-->
+        <scene sceneID="dEF-vp-V5V">
+            <objects>
+                <navigationController title="Just for Today" definesPresentationContext="YES" id="SjC-LF-p87" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vyz-Hh-74f">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="I8m-fY-VVI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KQF-qU-WNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1182" y="2"/>
+        </scene>
+        <!--Just for Today-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bOe-EU-20O"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Vt-uF-35X"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fon2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kf5-Mo-07U">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggv-h1-3Uf">
+                                <rect key="frame" x="59" y="131" width="241" height="118"/>
+                                <string key="text">God grant me serenity
+To accept the things I cannot change
+Courage to change the things I can
+And wisdom to know the difference</string>
+                                <fontDescription key="fontDescription" name="Helvetica-Oblique" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pep-kQ-ppZ">
+                                <rect key="frame" x="106" y="495" width="204" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="204" id="Umc-5c-Qtc"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.0" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2" height="2.2250738585072014e-308"/>
+                                <state key="normal" title="Just for Today" backgroundImage="button3.png">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.62352943420410156" green="0.54117649793624878" blue="0.91372555494308472" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zhM-hl-kkn" kind="push" id="T1y-P8-L4C"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pep-kQ-ppZ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="106" id="4hf-S3-ex7"/>
+                            <constraint firstAttribute="bottom" secondItem="Pep-kQ-ppZ" secondAttribute="bottom" constant="33" id="LNJ-WA-YI7"/>
+                            <constraint firstItem="Kf5-Mo-07U" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="Tgg-gP-Udy"/>
+                            <constraint firstItem="Kf5-Mo-07U" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="asW-fQ-dQR"/>
+                            <constraint firstItem="Kf5-Mo-07U" firstAttribute="top" secondItem="3" secondAttribute="top" id="oo7-Fx-vCu"/>
+                            <constraint firstItem="Kf5-Mo-07U" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="yHE-fV-H2J"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Just for Today" id="hRg-3q-fIV"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-811" y="2"/>
+        </scene>
+        <!--Today-->
+        <scene sceneID="Ops-og-DiM">
+            <objects>
+                <viewController id="zhM-hl-kkn" customClass="Today" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o9K-ot-JFm"/>
+                        <viewControllerLayoutGuide type="bottom" id="bw6-OV-gFA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yv7-lD-pYi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6c-YX-opY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.71764707565307617" green="0.71764707565307617" blue="0.83137261867523193" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FON.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Iu-06-AF7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" staticText="YES"/>
+                                </accessibility>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Iu-06-AF7" firstAttribute="leading" secondItem="yv7-lD-pYi" secondAttribute="leading" id="1dJ-nf-ZAx"/>
+                            <constraint firstItem="6Iu-06-AF7" firstAttribute="trailing" secondItem="yv7-lD-pYi" secondAttribute="trailing" id="6dl-D7-hJA"/>
+                            <constraint firstItem="6Iu-06-AF7" firstAttribute="bottom" secondItem="yv7-lD-pYi" secondAttribute="bottom" id="CFD-Ro-YrU"/>
+                            <constraint firstItem="U6c-YX-opY" firstAttribute="trailing" secondItem="yv7-lD-pYi" secondAttribute="trailing" id="E9f-0H-GEi"/>
+                            <constraint firstItem="U6c-YX-opY" firstAttribute="bottom" secondItem="yv7-lD-pYi" secondAttribute="bottom" id="ND5-JV-m2Q"/>
+                            <constraint firstItem="U6c-YX-opY" firstAttribute="leading" secondItem="yv7-lD-pYi" secondAttribute="leading" id="ZBY-UB-XeH"/>
+                            <constraint firstItem="U6c-YX-opY" firstAttribute="top" secondItem="yv7-lD-pYi" secondAttribute="top" id="mOA-Tl-Lvz"/>
+                            <constraint firstItem="6Iu-06-AF7" firstAttribute="top" secondItem="yv7-lD-pYi" secondAttribute="top" id="zUS-Gw-6SH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aau-Eq-cx7"/>
+                    <connections>
+                        <outlet property="Image" destination="6Iu-06-AF7" id="WRM-Pu-uYK"/>
+                        <outlet property="Text2" destination="U6c-YX-opY" id="Cfw-cc-VvX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOw-KW-rKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-385" y="2"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
+    <resources>
+        <image name="FON.png" width="1000" height="1000"/>
+        <image name="button3.png" width="160" height="40"/>
+        <image name="fon2.png" width="800" height="600"/>
+    </resources>
 </document>

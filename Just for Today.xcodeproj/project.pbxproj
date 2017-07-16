@@ -3,19 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4025F2E6174636980027BFFD /* Today.m in Sources */ = {isa = PBXBuildFile; fileRef = 4025F2E5174636980027BFFD /* Today.m */; };
 		40709556173BCA2900F6750E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40709555173BCA2900F6750E /* UIKit.framework */; };
 		40709558173BCA2900F6750E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40709557173BCA2900F6750E /* Foundation.framework */; };
 		4070955A173BCA2900F6750E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40709559173BCA2900F6750E /* CoreGraphics.framework */; };
 		40709560173BCA2900F6750E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4070955E173BCA2900F6750E /* InfoPlist.strings */; };
 		40709562173BCA2900F6750E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40709561173BCA2900F6750E /* main.m */; };
 		40709566173BCA2900F6750E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40709565173BCA2900F6750E /* AppDelegate.m */; };
-		40709568173BCA2900F6750E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40709567173BCA2900F6750E /* Default.png */; };
-		4070956A173BCA2A00F6750E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40709569173BCA2A00F6750E /* Default@2x.png */; };
-		4070956C173BCA2A00F6750E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070956B173BCA2A00F6750E /* Default-568h@2x.png */; };
 		4070956F173BCA2A00F6750E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4070956D173BCA2A00F6750E /* MainStoryboard.storyboard */; };
 		40709572173BCA2A00F6750E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40709571173BCA2A00F6750E /* ViewController.m */; };
 		4070957A173BCA2A00F6750E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40709579173BCA2A00F6750E /* SenTestingKit.framework */; };
@@ -23,6 +21,381 @@
 		4070957C173BCA2A00F6750E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40709557173BCA2900F6750E /* Foundation.framework */; };
 		40709584173BCA2A00F6750E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40709582173BCA2A00F6750E /* InfoPlist.strings */; };
 		40709587173BCA2A00F6750E /* Just_for_TodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40709586173BCA2A00F6750E /* Just_for_TodayTests.m */; };
+		D48A27F01CAFD81E001FA725 /* April1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D21CAFD81E001FA725 /* April1.txt */; };
+		D48A27F11CAFD81E001FA725 /* April10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D31CAFD81E001FA725 /* April10.txt */; };
+		D48A27F21CAFD81E001FA725 /* April11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D41CAFD81E001FA725 /* April11.txt */; };
+		D48A27F31CAFD81E001FA725 /* April12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D51CAFD81E001FA725 /* April12.txt */; };
+		D48A27F41CAFD81E001FA725 /* April13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D61CAFD81E001FA725 /* April13.txt */; };
+		D48A27F51CAFD81E001FA725 /* April14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D71CAFD81E001FA725 /* April14.txt */; };
+		D48A27F61CAFD81E001FA725 /* April15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D81CAFD81E001FA725 /* April15.txt */; };
+		D48A27F71CAFD81E001FA725 /* April16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27D91CAFD81E001FA725 /* April16.txt */; };
+		D48A27F81CAFD81E001FA725 /* April17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27DA1CAFD81E001FA725 /* April17.txt */; };
+		D48A27F91CAFD81E001FA725 /* April18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27DB1CAFD81E001FA725 /* April18.txt */; };
+		D48A27FA1CAFD81E001FA725 /* April19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27DC1CAFD81E001FA725 /* April19.txt */; };
+		D48A27FB1CAFD81E001FA725 /* April2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27DD1CAFD81E001FA725 /* April2.txt */; };
+		D48A27FC1CAFD81E001FA725 /* April20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27DE1CAFD81E001FA725 /* April20.txt */; };
+		D48A27FD1CAFD81E001FA725 /* April21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27DF1CAFD81E001FA725 /* April21.txt */; };
+		D48A27FE1CAFD81E001FA725 /* April22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E01CAFD81E001FA725 /* April22.txt */; };
+		D48A27FF1CAFD81E001FA725 /* April23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E11CAFD81E001FA725 /* April23.txt */; };
+		D48A28001CAFD81E001FA725 /* April24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E21CAFD81E001FA725 /* April24.txt */; };
+		D48A28011CAFD81E001FA725 /* April25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E31CAFD81E001FA725 /* April25.txt */; };
+		D48A28021CAFD81E001FA725 /* April26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E41CAFD81E001FA725 /* April26.txt */; };
+		D48A28031CAFD81E001FA725 /* April27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E51CAFD81E001FA725 /* April27.txt */; };
+		D48A28041CAFD81E001FA725 /* April28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E61CAFD81E001FA725 /* April28.txt */; };
+		D48A28051CAFD81E001FA725 /* April29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E71CAFD81E001FA725 /* April29.txt */; };
+		D48A28061CAFD81E001FA725 /* April3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E81CAFD81E001FA725 /* April3.txt */; };
+		D48A28071CAFD81E001FA725 /* April30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27E91CAFD81E001FA725 /* April30.txt */; };
+		D48A28081CAFD81E001FA725 /* April4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27EA1CAFD81E001FA725 /* April4.txt */; };
+		D48A28091CAFD81E001FA725 /* April5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27EB1CAFD81E001FA725 /* April5.txt */; };
+		D48A280A1CAFD81E001FA725 /* April6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27EC1CAFD81E001FA725 /* April6.txt */; };
+		D48A280B1CAFD81E001FA725 /* April7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27ED1CAFD81E001FA725 /* April7.txt */; };
+		D48A280C1CAFD81E001FA725 /* April8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27EE1CAFD81E001FA725 /* April8.txt */; };
+		D48A280D1CAFD81E001FA725 /* April9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A27EF1CAFD81E001FA725 /* April9.txt */; };
+		D48A29491CAFD85C001FA725 /* avgust1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A280F1CAFD85C001FA725 /* avgust1.txt */; };
+		D48A294A1CAFD85C001FA725 /* avgust10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28101CAFD85C001FA725 /* avgust10.txt */; };
+		D48A294B1CAFD85C001FA725 /* avgust11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28111CAFD85C001FA725 /* avgust11.txt */; };
+		D48A294C1CAFD85C001FA725 /* avgust12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28121CAFD85C001FA725 /* avgust12.txt */; };
+		D48A294D1CAFD85C001FA725 /* avgust13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28131CAFD85C001FA725 /* avgust13.txt */; };
+		D48A294E1CAFD85C001FA725 /* avgust14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28141CAFD85C001FA725 /* avgust14.txt */; };
+		D48A294F1CAFD85C001FA725 /* avgust15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28151CAFD85C001FA725 /* avgust15.txt */; };
+		D48A29501CAFD85C001FA725 /* avgust16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28161CAFD85C001FA725 /* avgust16.txt */; };
+		D48A29511CAFD85C001FA725 /* avgust17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28171CAFD85C001FA725 /* avgust17.txt */; };
+		D48A29521CAFD85C001FA725 /* avgust18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28181CAFD85C001FA725 /* avgust18.txt */; };
+		D48A29531CAFD85C001FA725 /* avgust19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28191CAFD85C001FA725 /* avgust19.txt */; };
+		D48A29541CAFD85C001FA725 /* avgust2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A281A1CAFD85C001FA725 /* avgust2.txt */; };
+		D48A29551CAFD85C001FA725 /* avgust20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A281B1CAFD85C001FA725 /* avgust20.txt */; };
+		D48A29561CAFD85C001FA725 /* avgust21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A281C1CAFD85C001FA725 /* avgust21.txt */; };
+		D48A29571CAFD85C001FA725 /* avgust22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A281D1CAFD85C001FA725 /* avgust22.txt */; };
+		D48A29581CAFD85C001FA725 /* avgust23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A281E1CAFD85C001FA725 /* avgust23.txt */; };
+		D48A29591CAFD85C001FA725 /* avgust24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A281F1CAFD85C001FA725 /* avgust24.txt */; };
+		D48A295A1CAFD85C001FA725 /* avgust25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28201CAFD85C001FA725 /* avgust25.txt */; };
+		D48A295B1CAFD85C001FA725 /* avgust26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28211CAFD85C001FA725 /* avgust26.txt */; };
+		D48A295C1CAFD85C001FA725 /* avgust27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28221CAFD85C001FA725 /* avgust27.txt */; };
+		D48A295D1CAFD85C001FA725 /* avgust28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28231CAFD85C001FA725 /* avgust28.txt */; };
+		D48A295E1CAFD85C001FA725 /* avgust29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28241CAFD85C001FA725 /* avgust29.txt */; };
+		D48A295F1CAFD85C001FA725 /* avgust3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28251CAFD85C001FA725 /* avgust3.txt */; };
+		D48A29601CAFD85C001FA725 /* avgust30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28261CAFD85C001FA725 /* avgust30.txt */; };
+		D48A29611CAFD85C001FA725 /* avgust31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28271CAFD85C001FA725 /* avgust31.txt */; };
+		D48A29621CAFD85C001FA725 /* avgust4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28281CAFD85C001FA725 /* avgust4.txt */; };
+		D48A29631CAFD85C001FA725 /* avgust5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28291CAFD85C001FA725 /* avgust5.txt */; };
+		D48A29641CAFD85C001FA725 /* avgust6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A282A1CAFD85C001FA725 /* avgust6.txt */; };
+		D48A29651CAFD85C001FA725 /* avgust7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A282B1CAFD85C001FA725 /* avgust7.txt */; };
+		D48A29661CAFD85C001FA725 /* avgust8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A282C1CAFD85C001FA725 /* avgust8.txt */; };
+		D48A29671CAFD85C001FA725 /* avgust9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A282D1CAFD85C001FA725 /* avgust9.txt */; };
+		D48A29681CAFD85C001FA725 /* December1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A282F1CAFD85C001FA725 /* December1.txt */; };
+		D48A29691CAFD85C001FA725 /* December10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28301CAFD85C001FA725 /* December10.txt */; };
+		D48A296A1CAFD85C001FA725 /* December11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28311CAFD85C001FA725 /* December11.txt */; };
+		D48A296B1CAFD85C001FA725 /* December12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28321CAFD85C001FA725 /* December12.txt */; };
+		D48A296C1CAFD85C001FA725 /* December13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28331CAFD85C001FA725 /* December13.txt */; };
+		D48A296D1CAFD85C001FA725 /* December14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28341CAFD85C001FA725 /* December14.txt */; };
+		D48A296E1CAFD85C001FA725 /* December15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28351CAFD85C001FA725 /* December15.txt */; };
+		D48A296F1CAFD85C001FA725 /* December16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28361CAFD85C001FA725 /* December16.txt */; };
+		D48A29701CAFD85C001FA725 /* December17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28371CAFD85C001FA725 /* December17.txt */; };
+		D48A29711CAFD85C001FA725 /* December18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28381CAFD85C001FA725 /* December18.txt */; };
+		D48A29721CAFD85C001FA725 /* December19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28391CAFD85C001FA725 /* December19.txt */; };
+		D48A29731CAFD85C001FA725 /* December2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A283A1CAFD85C001FA725 /* December2.txt */; };
+		D48A29741CAFD85C001FA725 /* December20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A283B1CAFD85C001FA725 /* December20.txt */; };
+		D48A29751CAFD85C001FA725 /* December21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A283C1CAFD85C001FA725 /* December21.txt */; };
+		D48A29761CAFD85C001FA725 /* December22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A283D1CAFD85C001FA725 /* December22.txt */; };
+		D48A29771CAFD85C001FA725 /* December23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A283E1CAFD85C001FA725 /* December23.txt */; };
+		D48A29781CAFD85C001FA725 /* December24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A283F1CAFD85C001FA725 /* December24.txt */; };
+		D48A29791CAFD85C001FA725 /* December25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28401CAFD85C001FA725 /* December25.txt */; };
+		D48A297A1CAFD85C001FA725 /* December26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28411CAFD85C001FA725 /* December26.txt */; };
+		D48A297B1CAFD85C001FA725 /* December27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28421CAFD85C001FA725 /* December27.txt */; };
+		D48A297C1CAFD85C001FA725 /* December28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28431CAFD85C001FA725 /* December28.txt */; };
+		D48A297D1CAFD85C001FA725 /* December29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28441CAFD85C001FA725 /* December29.txt */; };
+		D48A297E1CAFD85C001FA725 /* December3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28451CAFD85C001FA725 /* December3.txt */; };
+		D48A297F1CAFD85C001FA725 /* December30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28461CAFD85C001FA725 /* December30.txt */; };
+		D48A29801CAFD85C001FA725 /* December31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28471CAFD85C001FA725 /* December31.txt */; };
+		D48A29811CAFD85C001FA725 /* December4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28481CAFD85C001FA725 /* December4.txt */; };
+		D48A29821CAFD85C001FA725 /* December5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28491CAFD85C001FA725 /* December5.txt */; };
+		D48A29831CAFD85C001FA725 /* December6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A284A1CAFD85C001FA725 /* December6.txt */; };
+		D48A29841CAFD85C001FA725 /* December7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A284B1CAFD85C001FA725 /* December7.txt */; };
+		D48A29851CAFD85C001FA725 /* December8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A284C1CAFD85C001FA725 /* December8.txt */; };
+		D48A29861CAFD85C001FA725 /* December9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A284D1CAFD85C001FA725 /* December9.txt */; };
+		D48A29871CAFD85C001FA725 /* February1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A284F1CAFD85C001FA725 /* February1.txt */; };
+		D48A29881CAFD85C001FA725 /* February10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28501CAFD85C001FA725 /* February10.txt */; };
+		D48A29891CAFD85C001FA725 /* February11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28511CAFD85C001FA725 /* February11.txt */; };
+		D48A298A1CAFD85C001FA725 /* February12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28521CAFD85C001FA725 /* February12.txt */; };
+		D48A298B1CAFD85C001FA725 /* February13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28531CAFD85C001FA725 /* February13.txt */; };
+		D48A298C1CAFD85C001FA725 /* February14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28541CAFD85C001FA725 /* February14.txt */; };
+		D48A298D1CAFD85C001FA725 /* February15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28551CAFD85C001FA725 /* February15.txt */; };
+		D48A298E1CAFD85C001FA725 /* February16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28561CAFD85C001FA725 /* February16.txt */; };
+		D48A298F1CAFD85C001FA725 /* February17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28571CAFD85C001FA725 /* February17.txt */; };
+		D48A29901CAFD85C001FA725 /* February18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28581CAFD85C001FA725 /* February18.txt */; };
+		D48A29911CAFD85C001FA725 /* February19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28591CAFD85C001FA725 /* February19.txt */; };
+		D48A29921CAFD85C001FA725 /* February2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A285A1CAFD85C001FA725 /* February2.txt */; };
+		D48A29931CAFD85C001FA725 /* February20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A285B1CAFD85C001FA725 /* February20.txt */; };
+		D48A29941CAFD85C001FA725 /* February21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A285C1CAFD85C001FA725 /* February21.txt */; };
+		D48A29951CAFD85C001FA725 /* February22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A285D1CAFD85C001FA725 /* February22.txt */; };
+		D48A29961CAFD85C001FA725 /* February23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A285E1CAFD85C001FA725 /* February23.txt */; };
+		D48A29971CAFD85C001FA725 /* February24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A285F1CAFD85C001FA725 /* February24.txt */; };
+		D48A29981CAFD85C001FA725 /* February25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28601CAFD85C001FA725 /* February25.txt */; };
+		D48A29991CAFD85C001FA725 /* February26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28611CAFD85C001FA725 /* February26.txt */; };
+		D48A299A1CAFD85C001FA725 /* February27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28621CAFD85C001FA725 /* February27.txt */; };
+		D48A299B1CAFD85C001FA725 /* February28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28631CAFD85C001FA725 /* February28.txt */; };
+		D48A299C1CAFD85C001FA725 /* February29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28641CAFD85C001FA725 /* February29.txt */; };
+		D48A299D1CAFD85C001FA725 /* February3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28651CAFD85C001FA725 /* February3.txt */; };
+		D48A299E1CAFD85C001FA725 /* February4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28661CAFD85C001FA725 /* February4.txt */; };
+		D48A299F1CAFD85C001FA725 /* February5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28671CAFD85C001FA725 /* February5.txt */; };
+		D48A29A01CAFD85C001FA725 /* February6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28681CAFD85C001FA725 /* February6.txt */; };
+		D48A29A11CAFD85C001FA725 /* February7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28691CAFD85C001FA725 /* February7.txt */; };
+		D48A29A21CAFD85C001FA725 /* February8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A286A1CAFD85C001FA725 /* February8.txt */; };
+		D48A29A31CAFD85C001FA725 /* February9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A286B1CAFD85C001FA725 /* February9.txt */; };
+		D48A29A41CAFD85C001FA725 /* Junuary1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A286D1CAFD85C001FA725 /* Junuary1.txt */; };
+		D48A29A51CAFD85C001FA725 /* Junuary10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A286E1CAFD85C001FA725 /* Junuary10.txt */; };
+		D48A29A61CAFD85C001FA725 /* Junuary11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A286F1CAFD85C001FA725 /* Junuary11.txt */; };
+		D48A29A71CAFD85C001FA725 /* Junuary12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28701CAFD85C001FA725 /* Junuary12.txt */; };
+		D48A29A81CAFD85C001FA725 /* Junuary13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28711CAFD85C001FA725 /* Junuary13.txt */; };
+		D48A29A91CAFD85C001FA725 /* Junuary14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28721CAFD85C001FA725 /* Junuary14.txt */; };
+		D48A29AA1CAFD85C001FA725 /* Junuary15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28731CAFD85C001FA725 /* Junuary15.txt */; };
+		D48A29AB1CAFD85C001FA725 /* Junuary16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28741CAFD85C001FA725 /* Junuary16.txt */; };
+		D48A29AC1CAFD85C001FA725 /* Junuary17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28751CAFD85C001FA725 /* Junuary17.txt */; };
+		D48A29AD1CAFD85C001FA725 /* Junuary18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28761CAFD85C001FA725 /* Junuary18.txt */; };
+		D48A29AE1CAFD85C001FA725 /* Junuary19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28771CAFD85C001FA725 /* Junuary19.txt */; };
+		D48A29AF1CAFD85C001FA725 /* Junuary2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28781CAFD85C001FA725 /* Junuary2.txt */; };
+		D48A29B01CAFD85C001FA725 /* Junuary20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28791CAFD85C001FA725 /* Junuary20.txt */; };
+		D48A29B11CAFD85C001FA725 /* Junuary21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A287A1CAFD85C001FA725 /* Junuary21.txt */; };
+		D48A29B21CAFD85C001FA725 /* Junuary22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A287B1CAFD85C001FA725 /* Junuary22.txt */; };
+		D48A29B31CAFD85C001FA725 /* Junuary23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A287C1CAFD85C001FA725 /* Junuary23.txt */; };
+		D48A29B41CAFD85C001FA725 /* Junuary24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A287D1CAFD85C001FA725 /* Junuary24.txt */; };
+		D48A29B51CAFD85C001FA725 /* Junuary25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A287E1CAFD85C001FA725 /* Junuary25.txt */; };
+		D48A29B61CAFD85C001FA725 /* Junuary26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A287F1CAFD85C001FA725 /* Junuary26.txt */; };
+		D48A29B71CAFD85C001FA725 /* Junuary27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28801CAFD85C001FA725 /* Junuary27.txt */; };
+		D48A29B81CAFD85C001FA725 /* Junuary28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28811CAFD85C001FA725 /* Junuary28.txt */; };
+		D48A29B91CAFD85C001FA725 /* Junuary29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28821CAFD85C001FA725 /* Junuary29.txt */; };
+		D48A29BA1CAFD85C001FA725 /* Junuary3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28831CAFD85C001FA725 /* Junuary3.txt */; };
+		D48A29BB1CAFD85C001FA725 /* Junuary30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28841CAFD85C001FA725 /* Junuary30.txt */; };
+		D48A29BC1CAFD85C001FA725 /* Junuary31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28851CAFD85C001FA725 /* Junuary31.txt */; };
+		D48A29BD1CAFD85C001FA725 /* Junuary4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28861CAFD85C001FA725 /* Junuary4.txt */; };
+		D48A29BE1CAFD85C001FA725 /* Junuary5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28871CAFD85C001FA725 /* Junuary5.txt */; };
+		D48A29BF1CAFD85C001FA725 /* Junuary6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28881CAFD85C001FA725 /* Junuary6.txt */; };
+		D48A29C01CAFD85C001FA725 /* Junuary7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28891CAFD85C001FA725 /* Junuary7.txt */; };
+		D48A29C11CAFD85C001FA725 /* Junuary8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A288A1CAFD85C001FA725 /* Junuary8.txt */; };
+		D48A29C21CAFD85C001FA725 /* Junuary9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A288B1CAFD85C001FA725 /* Junuary9.txt */; };
+		D48A29C31CAFD85C001FA725 /* Jule1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A288D1CAFD85C001FA725 /* Jule1.txt */; };
+		D48A29C41CAFD85C001FA725 /* Jule10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A288E1CAFD85C001FA725 /* Jule10.txt */; };
+		D48A29C51CAFD85C001FA725 /* Jule11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A288F1CAFD85C001FA725 /* Jule11.txt */; };
+		D48A29C61CAFD85C001FA725 /* Jule12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28901CAFD85C001FA725 /* Jule12.txt */; };
+		D48A29C71CAFD85C001FA725 /* Jule13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28911CAFD85C001FA725 /* Jule13.txt */; };
+		D48A29C81CAFD85C001FA725 /* Jule14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28921CAFD85C001FA725 /* Jule14.txt */; };
+		D48A29C91CAFD85C001FA725 /* Jule15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28931CAFD85C001FA725 /* Jule15.txt */; };
+		D48A29CA1CAFD85C001FA725 /* Jule16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28941CAFD85C001FA725 /* Jule16.txt */; };
+		D48A29CB1CAFD85C001FA725 /* Jule17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28951CAFD85C001FA725 /* Jule17.txt */; };
+		D48A29CC1CAFD85C001FA725 /* Jule18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28961CAFD85C001FA725 /* Jule18.txt */; };
+		D48A29CD1CAFD85C001FA725 /* Jule19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28971CAFD85C001FA725 /* Jule19.txt */; };
+		D48A29CE1CAFD85C001FA725 /* Jule2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28981CAFD85C001FA725 /* Jule2.txt */; };
+		D48A29CF1CAFD85C001FA725 /* Jule20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28991CAFD85C001FA725 /* Jule20.txt */; };
+		D48A29D01CAFD85C001FA725 /* Jule21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A289A1CAFD85C001FA725 /* Jule21.txt */; };
+		D48A29D11CAFD85C001FA725 /* Jule22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A289B1CAFD85C001FA725 /* Jule22.txt */; };
+		D48A29D21CAFD85C001FA725 /* Jule23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A289C1CAFD85C001FA725 /* Jule23.txt */; };
+		D48A29D31CAFD85C001FA725 /* Jule24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A289D1CAFD85C001FA725 /* Jule24.txt */; };
+		D48A29D41CAFD85C001FA725 /* Jule25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A289E1CAFD85C001FA725 /* Jule25.txt */; };
+		D48A29D51CAFD85C001FA725 /* Jule26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A289F1CAFD85C001FA725 /* Jule26.txt */; };
+		D48A29D61CAFD85C001FA725 /* Jule27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A01CAFD85C001FA725 /* Jule27.txt */; };
+		D48A29D71CAFD85C001FA725 /* Jule28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A11CAFD85C001FA725 /* Jule28.txt */; };
+		D48A29D81CAFD85C001FA725 /* Jule29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A21CAFD85C001FA725 /* Jule29.txt */; };
+		D48A29D91CAFD85C001FA725 /* Jule3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A31CAFD85C001FA725 /* Jule3.txt */; };
+		D48A29DA1CAFD85C001FA725 /* Jule30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A41CAFD85C001FA725 /* Jule30.txt */; };
+		D48A29DB1CAFD85C001FA725 /* Jule31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A51CAFD85C001FA725 /* Jule31.txt */; };
+		D48A29DC1CAFD85C001FA725 /* Jule4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A61CAFD85C001FA725 /* Jule4.txt */; };
+		D48A29DD1CAFD85C001FA725 /* Jule5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A71CAFD85C001FA725 /* Jule5.txt */; };
+		D48A29DE1CAFD85C001FA725 /* Jule6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A81CAFD85C001FA725 /* Jule6.txt */; };
+		D48A29DF1CAFD85C001FA725 /* Jule7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28A91CAFD85C001FA725 /* Jule7.txt */; };
+		D48A29E01CAFD85C001FA725 /* Jule8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28AA1CAFD85C001FA725 /* Jule8.txt */; };
+		D48A29E11CAFD85C001FA725 /* Jule9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28AB1CAFD85C001FA725 /* Jule9.txt */; };
+		D48A29E21CAFD85C001FA725 /* June1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28AD1CAFD85C001FA725 /* June1.txt */; };
+		D48A29E31CAFD85C001FA725 /* June10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28AE1CAFD85C001FA725 /* June10.txt */; };
+		D48A29E41CAFD85C001FA725 /* June11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28AF1CAFD85C001FA725 /* June11.txt */; };
+		D48A29E51CAFD85C001FA725 /* June12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B01CAFD85C001FA725 /* June12.txt */; };
+		D48A29E61CAFD85C001FA725 /* June13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B11CAFD85C001FA725 /* June13.txt */; };
+		D48A29E71CAFD85C001FA725 /* June14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B21CAFD85C001FA725 /* June14.txt */; };
+		D48A29E81CAFD85C001FA725 /* June15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B31CAFD85C001FA725 /* June15.txt */; };
+		D48A29E91CAFD85C001FA725 /* June16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B41CAFD85C001FA725 /* June16.txt */; };
+		D48A29EA1CAFD85C001FA725 /* June17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B51CAFD85C001FA725 /* June17.txt */; };
+		D48A29EB1CAFD85C001FA725 /* June18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B61CAFD85C001FA725 /* June18.txt */; };
+		D48A29EC1CAFD85C001FA725 /* June19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B71CAFD85C001FA725 /* June19.txt */; };
+		D48A29ED1CAFD85C001FA725 /* June2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B81CAFD85C001FA725 /* June2.txt */; };
+		D48A29EE1CAFD85C001FA725 /* June20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28B91CAFD85C001FA725 /* June20.txt */; };
+		D48A29EF1CAFD85C001FA725 /* June21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28BA1CAFD85C001FA725 /* June21.txt */; };
+		D48A29F01CAFD85C001FA725 /* June22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28BB1CAFD85C001FA725 /* June22.txt */; };
+		D48A29F11CAFD85C001FA725 /* June23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28BC1CAFD85C001FA725 /* June23.txt */; };
+		D48A29F21CAFD85C001FA725 /* June24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28BD1CAFD85C001FA725 /* June24.txt */; };
+		D48A29F31CAFD85C001FA725 /* June25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28BE1CAFD85C001FA725 /* June25.txt */; };
+		D48A29F41CAFD85C001FA725 /* June26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28BF1CAFD85C001FA725 /* June26.txt */; };
+		D48A29F51CAFD85C001FA725 /* June27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C01CAFD85C001FA725 /* June27.txt */; };
+		D48A29F61CAFD85C001FA725 /* June28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C11CAFD85C001FA725 /* June28.txt */; };
+		D48A29F71CAFD85C001FA725 /* June29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C21CAFD85C001FA725 /* June29.txt */; };
+		D48A29F81CAFD85C001FA725 /* June3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C31CAFD85C001FA725 /* June3.txt */; };
+		D48A29F91CAFD85C001FA725 /* June30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C41CAFD85C001FA725 /* June30.txt */; };
+		D48A29FA1CAFD85C001FA725 /* June4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C51CAFD85C001FA725 /* June4.txt */; };
+		D48A29FB1CAFD85C001FA725 /* June5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C61CAFD85C001FA725 /* June5.txt */; };
+		D48A29FC1CAFD85C001FA725 /* June6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C71CAFD85C001FA725 /* June6.txt */; };
+		D48A29FD1CAFD85C001FA725 /* June7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C81CAFD85C001FA725 /* June7.txt */; };
+		D48A29FE1CAFD85C001FA725 /* June8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28C91CAFD85C001FA725 /* June8.txt */; };
+		D48A29FF1CAFD85C001FA725 /* June9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28CA1CAFD85C001FA725 /* June9.txt */; };
+		D48A2A1F1CAFD85C001FA725 /* November1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28EC1CAFD85C001FA725 /* November1.txt */; };
+		D48A2A201CAFD85C001FA725 /* November10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28ED1CAFD85C001FA725 /* November10.txt */; };
+		D48A2A211CAFD85C001FA725 /* November11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28EE1CAFD85C001FA725 /* November11.txt */; };
+		D48A2A221CAFD85C001FA725 /* November12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28EF1CAFD85C001FA725 /* November12.txt */; };
+		D48A2A231CAFD85C001FA725 /* November13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F01CAFD85C001FA725 /* November13.txt */; };
+		D48A2A241CAFD85C001FA725 /* November14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F11CAFD85C001FA725 /* November14.txt */; };
+		D48A2A251CAFD85C001FA725 /* November15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F21CAFD85C001FA725 /* November15.txt */; };
+		D48A2A261CAFD85C001FA725 /* November16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F31CAFD85C001FA725 /* November16.txt */; };
+		D48A2A271CAFD85C001FA725 /* November17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F41CAFD85C001FA725 /* November17.txt */; };
+		D48A2A281CAFD85C001FA725 /* November18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F51CAFD85C001FA725 /* November18.txt */; };
+		D48A2A291CAFD85C001FA725 /* November19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F61CAFD85C001FA725 /* November19.txt */; };
+		D48A2A2A1CAFD85C001FA725 /* November2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F71CAFD85C001FA725 /* November2.txt */; };
+		D48A2A2B1CAFD85C001FA725 /* November20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F81CAFD85C001FA725 /* November20.txt */; };
+		D48A2A2C1CAFD85C001FA725 /* November21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28F91CAFD85C001FA725 /* November21.txt */; };
+		D48A2A2D1CAFD85C001FA725 /* November22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28FA1CAFD85C001FA725 /* November22.txt */; };
+		D48A2A2E1CAFD85C001FA725 /* November23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28FB1CAFD85C001FA725 /* November23.txt */; };
+		D48A2A2F1CAFD85C001FA725 /* November24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28FC1CAFD85C001FA725 /* November24.txt */; };
+		D48A2A301CAFD85C001FA725 /* November25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28FD1CAFD85C001FA725 /* November25.txt */; };
+		D48A2A311CAFD85C001FA725 /* November26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28FE1CAFD85C001FA725 /* November26.txt */; };
+		D48A2A321CAFD85C001FA725 /* November27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A28FF1CAFD85C001FA725 /* November27.txt */; };
+		D48A2A331CAFD85C001FA725 /* November28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29001CAFD85C001FA725 /* November28.txt */; };
+		D48A2A341CAFD85C001FA725 /* November29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29011CAFD85C001FA725 /* November29.txt */; };
+		D48A2A351CAFD85C001FA725 /* November3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29021CAFD85C001FA725 /* November3.txt */; };
+		D48A2A361CAFD85C001FA725 /* November30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29031CAFD85C001FA725 /* November30.txt */; };
+		D48A2A371CAFD85C001FA725 /* November4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29041CAFD85C001FA725 /* November4.txt */; };
+		D48A2A381CAFD85C001FA725 /* November5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29051CAFD85C001FA725 /* November5.txt */; };
+		D48A2A391CAFD85C001FA725 /* November6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29061CAFD85C001FA725 /* November6.txt */; };
+		D48A2A3A1CAFD85C001FA725 /* November7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29071CAFD85C001FA725 /* November7.txt */; };
+		D48A2A3B1CAFD85C001FA725 /* November8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29081CAFD85C001FA725 /* November8.txt */; };
+		D48A2A3C1CAFD85C001FA725 /* November9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29091CAFD85C001FA725 /* November9.txt */; };
+		D48A2A3D1CAFD85C001FA725 /* October1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A290B1CAFD85C001FA725 /* October1.txt */; };
+		D48A2A3E1CAFD85C001FA725 /* October10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A290C1CAFD85C001FA725 /* October10.txt */; };
+		D48A2A3F1CAFD85C001FA725 /* October11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A290D1CAFD85C001FA725 /* October11.txt */; };
+		D48A2A401CAFD85C001FA725 /* October12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A290E1CAFD85C001FA725 /* October12.txt */; };
+		D48A2A411CAFD85C001FA725 /* October13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A290F1CAFD85C001FA725 /* October13.txt */; };
+		D48A2A421CAFD85C001FA725 /* October14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29101CAFD85C001FA725 /* October14.txt */; };
+		D48A2A431CAFD85C001FA725 /* October15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29111CAFD85C001FA725 /* October15.txt */; };
+		D48A2A441CAFD85C001FA725 /* October16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29121CAFD85C001FA725 /* October16.txt */; };
+		D48A2A451CAFD85C001FA725 /* October17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29131CAFD85C001FA725 /* October17.txt */; };
+		D48A2A461CAFD85C001FA725 /* October18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29141CAFD85C001FA725 /* October18.txt */; };
+		D48A2A471CAFD85C001FA725 /* October19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29151CAFD85C001FA725 /* October19.txt */; };
+		D48A2A481CAFD85C001FA725 /* October2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29161CAFD85C001FA725 /* October2.txt */; };
+		D48A2A491CAFD85C001FA725 /* October20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29171CAFD85C001FA725 /* October20.txt */; };
+		D48A2A4A1CAFD85C001FA725 /* October21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29181CAFD85C001FA725 /* October21.txt */; };
+		D48A2A4B1CAFD85C001FA725 /* October22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29191CAFD85C001FA725 /* October22.txt */; };
+		D48A2A4C1CAFD85C001FA725 /* October23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A291A1CAFD85C001FA725 /* October23.txt */; };
+		D48A2A4D1CAFD85C001FA725 /* October24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A291B1CAFD85C001FA725 /* October24.txt */; };
+		D48A2A4E1CAFD85C001FA725 /* October25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A291C1CAFD85C001FA725 /* October25.txt */; };
+		D48A2A4F1CAFD85C001FA725 /* October26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A291D1CAFD85C001FA725 /* October26.txt */; };
+		D48A2A501CAFD85C001FA725 /* October27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A291E1CAFD85C001FA725 /* October27.txt */; };
+		D48A2A511CAFD85C001FA725 /* October28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A291F1CAFD85C001FA725 /* October28.txt */; };
+		D48A2A521CAFD85C001FA725 /* October29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29201CAFD85C001FA725 /* October29.txt */; };
+		D48A2A531CAFD85C001FA725 /* October3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29211CAFD85C001FA725 /* October3.txt */; };
+		D48A2A541CAFD85C001FA725 /* October30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29221CAFD85C001FA725 /* October30.txt */; };
+		D48A2A551CAFD85C001FA725 /* October31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29231CAFD85C001FA725 /* October31.txt */; };
+		D48A2A561CAFD85C001FA725 /* October4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29241CAFD85C001FA725 /* October4.txt */; };
+		D48A2A571CAFD85C001FA725 /* October5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29251CAFD85C001FA725 /* October5.txt */; };
+		D48A2A581CAFD85C001FA725 /* October6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29261CAFD85C001FA725 /* October6.txt */; };
+		D48A2A591CAFD85C001FA725 /* October7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29271CAFD85C001FA725 /* October7.txt */; };
+		D48A2A5A1CAFD85C001FA725 /* October8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29281CAFD85C001FA725 /* October8.txt */; };
+		D48A2A5B1CAFD85C001FA725 /* October9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29291CAFD85C001FA725 /* October9.txt */; };
+		D48A2A5C1CAFD85C001FA725 /* September1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A292B1CAFD85C001FA725 /* September1.txt */; };
+		D48A2A5D1CAFD85C001FA725 /* September10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A292C1CAFD85C001FA725 /* September10.txt */; };
+		D48A2A5E1CAFD85C001FA725 /* September11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A292D1CAFD85C001FA725 /* September11.txt */; };
+		D48A2A5F1CAFD85C001FA725 /* September12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A292E1CAFD85C001FA725 /* September12.txt */; };
+		D48A2A601CAFD85C001FA725 /* September13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A292F1CAFD85C001FA725 /* September13.txt */; };
+		D48A2A611CAFD85C001FA725 /* September14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29301CAFD85C001FA725 /* September14.txt */; };
+		D48A2A621CAFD85C001FA725 /* September15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29311CAFD85C001FA725 /* September15.txt */; };
+		D48A2A631CAFD85C001FA725 /* September16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29321CAFD85C001FA725 /* September16.txt */; };
+		D48A2A641CAFD85C001FA725 /* September17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29331CAFD85C001FA725 /* September17.txt */; };
+		D48A2A651CAFD85C001FA725 /* September18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29341CAFD85C001FA725 /* September18.txt */; };
+		D48A2A661CAFD85C001FA725 /* September19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29351CAFD85C001FA725 /* September19.txt */; };
+		D48A2A671CAFD85C001FA725 /* September2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29361CAFD85C001FA725 /* September2.txt */; };
+		D48A2A681CAFD85C001FA725 /* September20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29371CAFD85C001FA725 /* September20.txt */; };
+		D48A2A691CAFD85C001FA725 /* September21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29381CAFD85C001FA725 /* September21.txt */; };
+		D48A2A6A1CAFD85C001FA725 /* September22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29391CAFD85C001FA725 /* September22.txt */; };
+		D48A2A6B1CAFD85C001FA725 /* September23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A293A1CAFD85C001FA725 /* September23.txt */; };
+		D48A2A6C1CAFD85C001FA725 /* September24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A293B1CAFD85C001FA725 /* September24.txt */; };
+		D48A2A6D1CAFD85C001FA725 /* September25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A293C1CAFD85C001FA725 /* September25.txt */; };
+		D48A2A6E1CAFD85C001FA725 /* September26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A293D1CAFD85C001FA725 /* September26.txt */; };
+		D48A2A6F1CAFD85C001FA725 /* September27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A293E1CAFD85C001FA725 /* September27.txt */; };
+		D48A2A701CAFD85C001FA725 /* September28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A293F1CAFD85C001FA725 /* September28.txt */; };
+		D48A2A711CAFD85C001FA725 /* September29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29401CAFD85C001FA725 /* September29.txt */; };
+		D48A2A721CAFD85C001FA725 /* September3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29411CAFD85C001FA725 /* September3.txt */; };
+		D48A2A731CAFD85C001FA725 /* September30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29421CAFD85C001FA725 /* September30.txt */; };
+		D48A2A741CAFD85C001FA725 /* September4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29431CAFD85C001FA725 /* September4.txt */; };
+		D48A2A751CAFD85C001FA725 /* September5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29441CAFD85C001FA725 /* September5.txt */; };
+		D48A2A761CAFD85C001FA725 /* September6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29451CAFD85C001FA725 /* September6.txt */; };
+		D48A2A771CAFD85C001FA725 /* September7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29461CAFD85C001FA725 /* September7.txt */; };
+		D48A2A781CAFD85C001FA725 /* September8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29471CAFD85C001FA725 /* September8.txt */; };
+		D48A2A791CAFD85C001FA725 /* September9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A29481CAFD85C001FA725 /* September9.txt */; };
+		D48A2A7D1CAFDF82001FA725 /* button3.png in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A7C1CAFDF82001FA725 /* button3.png */; };
+		D48A2A9E1CAFE348001FA725 /* May1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A7F1CAFE348001FA725 /* May1.txt */; };
+		D48A2A9F1CAFE348001FA725 /* May10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A801CAFE348001FA725 /* May10.txt */; };
+		D48A2AA01CAFE348001FA725 /* May11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A811CAFE348001FA725 /* May11.txt */; };
+		D48A2AA11CAFE348001FA725 /* May12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A821CAFE348001FA725 /* May12.txt */; };
+		D48A2AA21CAFE348001FA725 /* May13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A831CAFE348001FA725 /* May13.txt */; };
+		D48A2AA31CAFE348001FA725 /* May14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A841CAFE348001FA725 /* May14.txt */; };
+		D48A2AA41CAFE348001FA725 /* May15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A851CAFE348001FA725 /* May15.txt */; };
+		D48A2AA51CAFE348001FA725 /* May16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A861CAFE348001FA725 /* May16.txt */; };
+		D48A2AA61CAFE348001FA725 /* May17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A871CAFE348001FA725 /* May17.txt */; };
+		D48A2AA71CAFE348001FA725 /* May18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A881CAFE348001FA725 /* May18.txt */; };
+		D48A2AA81CAFE348001FA725 /* May19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A891CAFE348001FA725 /* May19.txt */; };
+		D48A2AA91CAFE348001FA725 /* May2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A8A1CAFE348001FA725 /* May2.txt */; };
+		D48A2AAA1CAFE348001FA725 /* May20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A8B1CAFE348001FA725 /* May20.txt */; };
+		D48A2AAB1CAFE348001FA725 /* May21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A8C1CAFE348001FA725 /* May21.txt */; };
+		D48A2AAC1CAFE348001FA725 /* May22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A8D1CAFE348001FA725 /* May22.txt */; };
+		D48A2AAD1CAFE348001FA725 /* May23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A8E1CAFE348001FA725 /* May23.txt */; };
+		D48A2AAE1CAFE348001FA725 /* May24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A8F1CAFE348001FA725 /* May24.txt */; };
+		D48A2AAF1CAFE348001FA725 /* May25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A901CAFE348001FA725 /* May25.txt */; };
+		D48A2AB01CAFE348001FA725 /* May26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A911CAFE348001FA725 /* May26.txt */; };
+		D48A2AB11CAFE348001FA725 /* May27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A921CAFE348001FA725 /* May27.txt */; };
+		D48A2AB21CAFE348001FA725 /* May28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A931CAFE348001FA725 /* May28.txt */; };
+		D48A2AB31CAFE348001FA725 /* May29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A941CAFE348001FA725 /* May29.txt */; };
+		D48A2AB41CAFE348001FA725 /* May3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A951CAFE348001FA725 /* May3.txt */; };
+		D48A2AB51CAFE348001FA725 /* May30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A961CAFE348001FA725 /* May30.txt */; };
+		D48A2AB61CAFE348001FA725 /* May31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A971CAFE348001FA725 /* May31.txt */; };
+		D48A2AB71CAFE348001FA725 /* May4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A981CAFE348001FA725 /* May4.txt */; };
+		D48A2AB81CAFE348001FA725 /* May5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A991CAFE348001FA725 /* May5.txt */; };
+		D48A2AB91CAFE348001FA725 /* May6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A9A1CAFE348001FA725 /* May6.txt */; };
+		D48A2ABA1CAFE348001FA725 /* May7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A9B1CAFE348001FA725 /* May7.txt */; };
+		D48A2ABB1CAFE348001FA725 /* May8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A9C1CAFE348001FA725 /* May8.txt */; };
+		D48A2ABC1CAFE348001FA725 /* May9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D48A2A9D1CAFE348001FA725 /* May9.txt */; };
+		D4A303361C9C332000D674E5 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A303321C9C332000D674E5 /* Button.png */; };
+		D4A303371C9C332000D674E5 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A303331C9C332000D674E5 /* Button@2x.png */; };
+		D4A303381C9C332000D674E5 /* ButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A303341C9C332000D674E5 /* ButtonHighlighted.png */; };
+		D4A303391C9C332000D674E5 /* ButtonHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A303351C9C332000D674E5 /* ButtonHighlighted@2x.png */; };
+		D4A3033F1C9C3C4C00D674E5 /* fon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A3033E1C9C3C4C00D674E5 /* fon2.png */; };
+		D4A303411C9C3C7500D674E5 /* FON.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A303401C9C3C7500D674E5 /* FON.png */; };
+		D4F2D8581D381C1600F6D43B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F2D8571D381C1600F6D43B /* Default-568h@2x.png */; };
+		D4FA3A511C8EDBD4001C27C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A501C8EDBD4001C27C5 /* Images.xcassets */; };
+		D4FA3A761C8F22BF001C27C5 /* March1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A571C8F22BF001C27C5 /* March1.txt */; };
+		D4FA3A771C8F22BF001C27C5 /* March2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A581C8F22BF001C27C5 /* March2.txt */; };
+		D4FA3A781C8F22BF001C27C5 /* March3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A591C8F22BF001C27C5 /* March3.txt */; };
+		D4FA3A791C8F22BF001C27C5 /* March4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A5A1C8F22BF001C27C5 /* March4.txt */; };
+		D4FA3A7A1C8F22BF001C27C5 /* March5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A5B1C8F22BF001C27C5 /* March5.txt */; };
+		D4FA3A7B1C8F22BF001C27C5 /* March6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A5C1C8F22BF001C27C5 /* March6.txt */; };
+		D4FA3A7C1C8F22BF001C27C5 /* March7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A5D1C8F22BF001C27C5 /* March7.txt */; };
+		D4FA3A7D1C8F22BF001C27C5 /* March8.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A5E1C8F22BF001C27C5 /* March8.txt */; };
+		D4FA3A7E1C8F22BF001C27C5 /* March9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A5F1C8F22BF001C27C5 /* March9.txt */; };
+		D4FA3A7F1C8F22BF001C27C5 /* March10.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A601C8F22BF001C27C5 /* March10.txt */; };
+		D4FA3A801C8F22BF001C27C5 /* March11.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A611C8F22BF001C27C5 /* March11.txt */; };
+		D4FA3A811C8F22BF001C27C5 /* March12.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A621C8F22BF001C27C5 /* March12.txt */; };
+		D4FA3A821C8F22BF001C27C5 /* March13.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A631C8F22BF001C27C5 /* March13.txt */; };
+		D4FA3A831C8F22BF001C27C5 /* March14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A641C8F22BF001C27C5 /* March14.txt */; };
+		D4FA3A841C8F22BF001C27C5 /* March15.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A651C8F22BF001C27C5 /* March15.txt */; };
+		D4FA3A851C8F22BF001C27C5 /* March16.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A661C8F22BF001C27C5 /* March16.txt */; };
+		D4FA3A861C8F22BF001C27C5 /* March17.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A671C8F22BF001C27C5 /* March17.txt */; };
+		D4FA3A871C8F22BF001C27C5 /* March18.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A681C8F22BF001C27C5 /* March18.txt */; };
+		D4FA3A881C8F22BF001C27C5 /* March19.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A691C8F22BF001C27C5 /* March19.txt */; };
+		D4FA3A891C8F22BF001C27C5 /* March20.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A6A1C8F22BF001C27C5 /* March20.txt */; };
+		D4FA3A8A1C8F22BF001C27C5 /* March21.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A6B1C8F22BF001C27C5 /* March21.txt */; };
+		D4FA3A8B1C8F22BF001C27C5 /* March22.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A6C1C8F22BF001C27C5 /* March22.txt */; };
+		D4FA3A8C1C8F22BF001C27C5 /* March23.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A6D1C8F22BF001C27C5 /* March23.txt */; };
+		D4FA3A8D1C8F22BF001C27C5 /* March24.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A6E1C8F22BF001C27C5 /* March24.txt */; };
+		D4FA3A8E1C8F22BF001C27C5 /* March25.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A6F1C8F22BF001C27C5 /* March25.txt */; };
+		D4FA3A8F1C8F22BF001C27C5 /* March26.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A701C8F22BF001C27C5 /* March26.txt */; };
+		D4FA3A901C8F22BF001C27C5 /* March27.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A711C8F22BF001C27C5 /* March27.txt */; };
+		D4FA3A911C8F22BF001C27C5 /* March28.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A721C8F22BF001C27C5 /* March28.txt */; };
+		D4FA3A921C8F22BF001C27C5 /* March29.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A731C8F22BF001C27C5 /* March29.txt */; };
+		D4FA3A931C8F22BF001C27C5 /* March30.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A741C8F22BF001C27C5 /* March30.txt */; };
+		D4FA3A941C8F22BF001C27C5 /* March31.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3A751C8F22BF001C27C5 /* March31.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +409,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4025F2E4174636980027BFFD /* Today.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Today.h; sourceTree = "<group>"; };
+		4025F2E5174636980027BFFD /* Today.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Today.m; sourceTree = "<group>"; };
 		40709552173BCA2900F6750E /* Just for Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just for Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40709555173BCA2900F6750E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40709557173BCA2900F6750E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,9 +421,6 @@
 		40709563173BCA2900F6750E /* Just for Today-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Just for Today-Prefix.pch"; sourceTree = "<group>"; };
 		40709564173BCA2900F6750E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40709565173BCA2900F6750E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40709567173BCA2900F6750E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		40709569173BCA2A00F6750E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4070956B173BCA2A00F6750E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4070956E173BCA2A00F6750E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		40709570173BCA2A00F6750E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		40709571173BCA2A00F6750E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -58,6 +430,381 @@
 		40709583173BCA2A00F6750E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40709585173BCA2A00F6750E /* Just_for_TodayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Just_for_TodayTests.h; sourceTree = "<group>"; };
 		40709586173BCA2A00F6750E /* Just_for_TodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Just_for_TodayTests.m; sourceTree = "<group>"; };
+		D48A27D21CAFD81E001FA725 /* April1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April1.txt; sourceTree = "<group>"; };
+		D48A27D31CAFD81E001FA725 /* April10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April10.txt; sourceTree = "<group>"; };
+		D48A27D41CAFD81E001FA725 /* April11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April11.txt; sourceTree = "<group>"; };
+		D48A27D51CAFD81E001FA725 /* April12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April12.txt; sourceTree = "<group>"; };
+		D48A27D61CAFD81E001FA725 /* April13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April13.txt; sourceTree = "<group>"; };
+		D48A27D71CAFD81E001FA725 /* April14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April14.txt; sourceTree = "<group>"; };
+		D48A27D81CAFD81E001FA725 /* April15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April15.txt; sourceTree = "<group>"; };
+		D48A27D91CAFD81E001FA725 /* April16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April16.txt; sourceTree = "<group>"; };
+		D48A27DA1CAFD81E001FA725 /* April17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April17.txt; sourceTree = "<group>"; };
+		D48A27DB1CAFD81E001FA725 /* April18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April18.txt; sourceTree = "<group>"; };
+		D48A27DC1CAFD81E001FA725 /* April19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April19.txt; sourceTree = "<group>"; };
+		D48A27DD1CAFD81E001FA725 /* April2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April2.txt; sourceTree = "<group>"; };
+		D48A27DE1CAFD81E001FA725 /* April20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April20.txt; sourceTree = "<group>"; };
+		D48A27DF1CAFD81E001FA725 /* April21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April21.txt; sourceTree = "<group>"; };
+		D48A27E01CAFD81E001FA725 /* April22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April22.txt; sourceTree = "<group>"; };
+		D48A27E11CAFD81E001FA725 /* April23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April23.txt; sourceTree = "<group>"; };
+		D48A27E21CAFD81E001FA725 /* April24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April24.txt; sourceTree = "<group>"; };
+		D48A27E31CAFD81E001FA725 /* April25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April25.txt; sourceTree = "<group>"; };
+		D48A27E41CAFD81E001FA725 /* April26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April26.txt; sourceTree = "<group>"; };
+		D48A27E51CAFD81E001FA725 /* April27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April27.txt; sourceTree = "<group>"; };
+		D48A27E61CAFD81E001FA725 /* April28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April28.txt; sourceTree = "<group>"; };
+		D48A27E71CAFD81E001FA725 /* April29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April29.txt; sourceTree = "<group>"; };
+		D48A27E81CAFD81E001FA725 /* April3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April3.txt; sourceTree = "<group>"; };
+		D48A27E91CAFD81E001FA725 /* April30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April30.txt; sourceTree = "<group>"; };
+		D48A27EA1CAFD81E001FA725 /* April4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April4.txt; sourceTree = "<group>"; };
+		D48A27EB1CAFD81E001FA725 /* April5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April5.txt; sourceTree = "<group>"; };
+		D48A27EC1CAFD81E001FA725 /* April6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April6.txt; sourceTree = "<group>"; };
+		D48A27ED1CAFD81E001FA725 /* April7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April7.txt; sourceTree = "<group>"; };
+		D48A27EE1CAFD81E001FA725 /* April8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April8.txt; sourceTree = "<group>"; };
+		D48A27EF1CAFD81E001FA725 /* April9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = April9.txt; sourceTree = "<group>"; };
+		D48A280F1CAFD85C001FA725 /* avgust1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust1.txt; sourceTree = "<group>"; };
+		D48A28101CAFD85C001FA725 /* avgust10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust10.txt; sourceTree = "<group>"; };
+		D48A28111CAFD85C001FA725 /* avgust11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust11.txt; sourceTree = "<group>"; };
+		D48A28121CAFD85C001FA725 /* avgust12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust12.txt; sourceTree = "<group>"; };
+		D48A28131CAFD85C001FA725 /* avgust13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust13.txt; sourceTree = "<group>"; };
+		D48A28141CAFD85C001FA725 /* avgust14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust14.txt; sourceTree = "<group>"; };
+		D48A28151CAFD85C001FA725 /* avgust15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust15.txt; sourceTree = "<group>"; };
+		D48A28161CAFD85C001FA725 /* avgust16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust16.txt; sourceTree = "<group>"; };
+		D48A28171CAFD85C001FA725 /* avgust17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust17.txt; sourceTree = "<group>"; };
+		D48A28181CAFD85C001FA725 /* avgust18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust18.txt; sourceTree = "<group>"; };
+		D48A28191CAFD85C001FA725 /* avgust19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust19.txt; sourceTree = "<group>"; };
+		D48A281A1CAFD85C001FA725 /* avgust2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust2.txt; sourceTree = "<group>"; };
+		D48A281B1CAFD85C001FA725 /* avgust20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust20.txt; sourceTree = "<group>"; };
+		D48A281C1CAFD85C001FA725 /* avgust21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust21.txt; sourceTree = "<group>"; };
+		D48A281D1CAFD85C001FA725 /* avgust22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust22.txt; sourceTree = "<group>"; };
+		D48A281E1CAFD85C001FA725 /* avgust23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust23.txt; sourceTree = "<group>"; };
+		D48A281F1CAFD85C001FA725 /* avgust24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust24.txt; sourceTree = "<group>"; };
+		D48A28201CAFD85C001FA725 /* avgust25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust25.txt; sourceTree = "<group>"; };
+		D48A28211CAFD85C001FA725 /* avgust26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust26.txt; sourceTree = "<group>"; };
+		D48A28221CAFD85C001FA725 /* avgust27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust27.txt; sourceTree = "<group>"; };
+		D48A28231CAFD85C001FA725 /* avgust28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust28.txt; sourceTree = "<group>"; };
+		D48A28241CAFD85C001FA725 /* avgust29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust29.txt; sourceTree = "<group>"; };
+		D48A28251CAFD85C001FA725 /* avgust3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust3.txt; sourceTree = "<group>"; };
+		D48A28261CAFD85C001FA725 /* avgust30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust30.txt; sourceTree = "<group>"; };
+		D48A28271CAFD85C001FA725 /* avgust31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust31.txt; sourceTree = "<group>"; };
+		D48A28281CAFD85C001FA725 /* avgust4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust4.txt; sourceTree = "<group>"; };
+		D48A28291CAFD85C001FA725 /* avgust5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust5.txt; sourceTree = "<group>"; };
+		D48A282A1CAFD85C001FA725 /* avgust6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust6.txt; sourceTree = "<group>"; };
+		D48A282B1CAFD85C001FA725 /* avgust7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust7.txt; sourceTree = "<group>"; };
+		D48A282C1CAFD85C001FA725 /* avgust8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust8.txt; sourceTree = "<group>"; };
+		D48A282D1CAFD85C001FA725 /* avgust9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avgust9.txt; sourceTree = "<group>"; };
+		D48A282F1CAFD85C001FA725 /* December1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December1.txt; sourceTree = "<group>"; };
+		D48A28301CAFD85C001FA725 /* December10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December10.txt; sourceTree = "<group>"; };
+		D48A28311CAFD85C001FA725 /* December11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December11.txt; sourceTree = "<group>"; };
+		D48A28321CAFD85C001FA725 /* December12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December12.txt; sourceTree = "<group>"; };
+		D48A28331CAFD85C001FA725 /* December13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December13.txt; sourceTree = "<group>"; };
+		D48A28341CAFD85C001FA725 /* December14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December14.txt; sourceTree = "<group>"; };
+		D48A28351CAFD85C001FA725 /* December15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December15.txt; sourceTree = "<group>"; };
+		D48A28361CAFD85C001FA725 /* December16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December16.txt; sourceTree = "<group>"; };
+		D48A28371CAFD85C001FA725 /* December17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December17.txt; sourceTree = "<group>"; };
+		D48A28381CAFD85C001FA725 /* December18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December18.txt; sourceTree = "<group>"; };
+		D48A28391CAFD85C001FA725 /* December19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December19.txt; sourceTree = "<group>"; };
+		D48A283A1CAFD85C001FA725 /* December2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December2.txt; sourceTree = "<group>"; };
+		D48A283B1CAFD85C001FA725 /* December20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December20.txt; sourceTree = "<group>"; };
+		D48A283C1CAFD85C001FA725 /* December21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December21.txt; sourceTree = "<group>"; };
+		D48A283D1CAFD85C001FA725 /* December22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December22.txt; sourceTree = "<group>"; };
+		D48A283E1CAFD85C001FA725 /* December23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December23.txt; sourceTree = "<group>"; };
+		D48A283F1CAFD85C001FA725 /* December24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December24.txt; sourceTree = "<group>"; };
+		D48A28401CAFD85C001FA725 /* December25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December25.txt; sourceTree = "<group>"; };
+		D48A28411CAFD85C001FA725 /* December26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December26.txt; sourceTree = "<group>"; };
+		D48A28421CAFD85C001FA725 /* December27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December27.txt; sourceTree = "<group>"; };
+		D48A28431CAFD85C001FA725 /* December28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December28.txt; sourceTree = "<group>"; };
+		D48A28441CAFD85C001FA725 /* December29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December29.txt; sourceTree = "<group>"; };
+		D48A28451CAFD85C001FA725 /* December3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December3.txt; sourceTree = "<group>"; };
+		D48A28461CAFD85C001FA725 /* December30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December30.txt; sourceTree = "<group>"; };
+		D48A28471CAFD85C001FA725 /* December31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December31.txt; sourceTree = "<group>"; };
+		D48A28481CAFD85C001FA725 /* December4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December4.txt; sourceTree = "<group>"; };
+		D48A28491CAFD85C001FA725 /* December5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December5.txt; sourceTree = "<group>"; };
+		D48A284A1CAFD85C001FA725 /* December6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December6.txt; sourceTree = "<group>"; };
+		D48A284B1CAFD85C001FA725 /* December7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December7.txt; sourceTree = "<group>"; };
+		D48A284C1CAFD85C001FA725 /* December8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December8.txt; sourceTree = "<group>"; };
+		D48A284D1CAFD85C001FA725 /* December9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = December9.txt; sourceTree = "<group>"; };
+		D48A284F1CAFD85C001FA725 /* February1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February1.txt; sourceTree = "<group>"; };
+		D48A28501CAFD85C001FA725 /* February10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February10.txt; sourceTree = "<group>"; };
+		D48A28511CAFD85C001FA725 /* February11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February11.txt; sourceTree = "<group>"; };
+		D48A28521CAFD85C001FA725 /* February12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February12.txt; sourceTree = "<group>"; };
+		D48A28531CAFD85C001FA725 /* February13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February13.txt; sourceTree = "<group>"; };
+		D48A28541CAFD85C001FA725 /* February14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February14.txt; sourceTree = "<group>"; };
+		D48A28551CAFD85C001FA725 /* February15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February15.txt; sourceTree = "<group>"; };
+		D48A28561CAFD85C001FA725 /* February16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February16.txt; sourceTree = "<group>"; };
+		D48A28571CAFD85C001FA725 /* February17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February17.txt; sourceTree = "<group>"; };
+		D48A28581CAFD85C001FA725 /* February18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February18.txt; sourceTree = "<group>"; };
+		D48A28591CAFD85C001FA725 /* February19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February19.txt; sourceTree = "<group>"; };
+		D48A285A1CAFD85C001FA725 /* February2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February2.txt; sourceTree = "<group>"; };
+		D48A285B1CAFD85C001FA725 /* February20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February20.txt; sourceTree = "<group>"; };
+		D48A285C1CAFD85C001FA725 /* February21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February21.txt; sourceTree = "<group>"; };
+		D48A285D1CAFD85C001FA725 /* February22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February22.txt; sourceTree = "<group>"; };
+		D48A285E1CAFD85C001FA725 /* February23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February23.txt; sourceTree = "<group>"; };
+		D48A285F1CAFD85C001FA725 /* February24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February24.txt; sourceTree = "<group>"; };
+		D48A28601CAFD85C001FA725 /* February25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February25.txt; sourceTree = "<group>"; };
+		D48A28611CAFD85C001FA725 /* February26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February26.txt; sourceTree = "<group>"; };
+		D48A28621CAFD85C001FA725 /* February27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February27.txt; sourceTree = "<group>"; };
+		D48A28631CAFD85C001FA725 /* February28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February28.txt; sourceTree = "<group>"; };
+		D48A28641CAFD85C001FA725 /* February29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February29.txt; sourceTree = "<group>"; };
+		D48A28651CAFD85C001FA725 /* February3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February3.txt; sourceTree = "<group>"; };
+		D48A28661CAFD85C001FA725 /* February4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February4.txt; sourceTree = "<group>"; };
+		D48A28671CAFD85C001FA725 /* February5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February5.txt; sourceTree = "<group>"; };
+		D48A28681CAFD85C001FA725 /* February6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February6.txt; sourceTree = "<group>"; };
+		D48A28691CAFD85C001FA725 /* February7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February7.txt; sourceTree = "<group>"; };
+		D48A286A1CAFD85C001FA725 /* February8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February8.txt; sourceTree = "<group>"; };
+		D48A286B1CAFD85C001FA725 /* February9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = February9.txt; sourceTree = "<group>"; };
+		D48A286D1CAFD85C001FA725 /* Junuary1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary1.txt; sourceTree = "<group>"; };
+		D48A286E1CAFD85C001FA725 /* Junuary10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary10.txt; sourceTree = "<group>"; };
+		D48A286F1CAFD85C001FA725 /* Junuary11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary11.txt; sourceTree = "<group>"; };
+		D48A28701CAFD85C001FA725 /* Junuary12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary12.txt; sourceTree = "<group>"; };
+		D48A28711CAFD85C001FA725 /* Junuary13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary13.txt; sourceTree = "<group>"; };
+		D48A28721CAFD85C001FA725 /* Junuary14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary14.txt; sourceTree = "<group>"; };
+		D48A28731CAFD85C001FA725 /* Junuary15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary15.txt; sourceTree = "<group>"; };
+		D48A28741CAFD85C001FA725 /* Junuary16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary16.txt; sourceTree = "<group>"; };
+		D48A28751CAFD85C001FA725 /* Junuary17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary17.txt; sourceTree = "<group>"; };
+		D48A28761CAFD85C001FA725 /* Junuary18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary18.txt; sourceTree = "<group>"; };
+		D48A28771CAFD85C001FA725 /* Junuary19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary19.txt; sourceTree = "<group>"; };
+		D48A28781CAFD85C001FA725 /* Junuary2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary2.txt; sourceTree = "<group>"; };
+		D48A28791CAFD85C001FA725 /* Junuary20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary20.txt; sourceTree = "<group>"; };
+		D48A287A1CAFD85C001FA725 /* Junuary21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary21.txt; sourceTree = "<group>"; };
+		D48A287B1CAFD85C001FA725 /* Junuary22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary22.txt; sourceTree = "<group>"; };
+		D48A287C1CAFD85C001FA725 /* Junuary23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary23.txt; sourceTree = "<group>"; };
+		D48A287D1CAFD85C001FA725 /* Junuary24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary24.txt; sourceTree = "<group>"; };
+		D48A287E1CAFD85C001FA725 /* Junuary25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary25.txt; sourceTree = "<group>"; };
+		D48A287F1CAFD85C001FA725 /* Junuary26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary26.txt; sourceTree = "<group>"; };
+		D48A28801CAFD85C001FA725 /* Junuary27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary27.txt; sourceTree = "<group>"; };
+		D48A28811CAFD85C001FA725 /* Junuary28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary28.txt; sourceTree = "<group>"; };
+		D48A28821CAFD85C001FA725 /* Junuary29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary29.txt; sourceTree = "<group>"; };
+		D48A28831CAFD85C001FA725 /* Junuary3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary3.txt; sourceTree = "<group>"; };
+		D48A28841CAFD85C001FA725 /* Junuary30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary30.txt; sourceTree = "<group>"; };
+		D48A28851CAFD85C001FA725 /* Junuary31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary31.txt; sourceTree = "<group>"; };
+		D48A28861CAFD85C001FA725 /* Junuary4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary4.txt; sourceTree = "<group>"; };
+		D48A28871CAFD85C001FA725 /* Junuary5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary5.txt; sourceTree = "<group>"; };
+		D48A28881CAFD85C001FA725 /* Junuary6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary6.txt; sourceTree = "<group>"; };
+		D48A28891CAFD85C001FA725 /* Junuary7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary7.txt; sourceTree = "<group>"; };
+		D48A288A1CAFD85C001FA725 /* Junuary8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary8.txt; sourceTree = "<group>"; };
+		D48A288B1CAFD85C001FA725 /* Junuary9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Junuary9.txt; sourceTree = "<group>"; };
+		D48A288D1CAFD85C001FA725 /* Jule1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule1.txt; sourceTree = "<group>"; };
+		D48A288E1CAFD85C001FA725 /* Jule10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule10.txt; sourceTree = "<group>"; };
+		D48A288F1CAFD85C001FA725 /* Jule11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule11.txt; sourceTree = "<group>"; };
+		D48A28901CAFD85C001FA725 /* Jule12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule12.txt; sourceTree = "<group>"; };
+		D48A28911CAFD85C001FA725 /* Jule13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule13.txt; sourceTree = "<group>"; };
+		D48A28921CAFD85C001FA725 /* Jule14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule14.txt; sourceTree = "<group>"; };
+		D48A28931CAFD85C001FA725 /* Jule15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule15.txt; sourceTree = "<group>"; };
+		D48A28941CAFD85C001FA725 /* Jule16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule16.txt; sourceTree = "<group>"; };
+		D48A28951CAFD85C001FA725 /* Jule17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule17.txt; sourceTree = "<group>"; };
+		D48A28961CAFD85C001FA725 /* Jule18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule18.txt; sourceTree = "<group>"; };
+		D48A28971CAFD85C001FA725 /* Jule19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule19.txt; sourceTree = "<group>"; };
+		D48A28981CAFD85C001FA725 /* Jule2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule2.txt; sourceTree = "<group>"; };
+		D48A28991CAFD85C001FA725 /* Jule20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule20.txt; sourceTree = "<group>"; };
+		D48A289A1CAFD85C001FA725 /* Jule21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule21.txt; sourceTree = "<group>"; };
+		D48A289B1CAFD85C001FA725 /* Jule22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule22.txt; sourceTree = "<group>"; };
+		D48A289C1CAFD85C001FA725 /* Jule23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule23.txt; sourceTree = "<group>"; };
+		D48A289D1CAFD85C001FA725 /* Jule24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule24.txt; sourceTree = "<group>"; };
+		D48A289E1CAFD85C001FA725 /* Jule25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule25.txt; sourceTree = "<group>"; };
+		D48A289F1CAFD85C001FA725 /* Jule26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule26.txt; sourceTree = "<group>"; };
+		D48A28A01CAFD85C001FA725 /* Jule27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule27.txt; sourceTree = "<group>"; };
+		D48A28A11CAFD85C001FA725 /* Jule28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule28.txt; sourceTree = "<group>"; };
+		D48A28A21CAFD85C001FA725 /* Jule29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule29.txt; sourceTree = "<group>"; };
+		D48A28A31CAFD85C001FA725 /* Jule3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule3.txt; sourceTree = "<group>"; };
+		D48A28A41CAFD85C001FA725 /* Jule30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule30.txt; sourceTree = "<group>"; };
+		D48A28A51CAFD85C001FA725 /* Jule31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule31.txt; sourceTree = "<group>"; };
+		D48A28A61CAFD85C001FA725 /* Jule4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule4.txt; sourceTree = "<group>"; };
+		D48A28A71CAFD85C001FA725 /* Jule5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule5.txt; sourceTree = "<group>"; };
+		D48A28A81CAFD85C001FA725 /* Jule6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule6.txt; sourceTree = "<group>"; };
+		D48A28A91CAFD85C001FA725 /* Jule7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule7.txt; sourceTree = "<group>"; };
+		D48A28AA1CAFD85C001FA725 /* Jule8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule8.txt; sourceTree = "<group>"; };
+		D48A28AB1CAFD85C001FA725 /* Jule9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jule9.txt; sourceTree = "<group>"; };
+		D48A28AD1CAFD85C001FA725 /* June1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June1.txt; sourceTree = "<group>"; };
+		D48A28AE1CAFD85C001FA725 /* June10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June10.txt; sourceTree = "<group>"; };
+		D48A28AF1CAFD85C001FA725 /* June11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June11.txt; sourceTree = "<group>"; };
+		D48A28B01CAFD85C001FA725 /* June12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June12.txt; sourceTree = "<group>"; };
+		D48A28B11CAFD85C001FA725 /* June13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June13.txt; sourceTree = "<group>"; };
+		D48A28B21CAFD85C001FA725 /* June14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June14.txt; sourceTree = "<group>"; };
+		D48A28B31CAFD85C001FA725 /* June15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June15.txt; sourceTree = "<group>"; };
+		D48A28B41CAFD85C001FA725 /* June16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June16.txt; sourceTree = "<group>"; };
+		D48A28B51CAFD85C001FA725 /* June17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June17.txt; sourceTree = "<group>"; };
+		D48A28B61CAFD85C001FA725 /* June18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June18.txt; sourceTree = "<group>"; };
+		D48A28B71CAFD85C001FA725 /* June19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June19.txt; sourceTree = "<group>"; };
+		D48A28B81CAFD85C001FA725 /* June2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June2.txt; sourceTree = "<group>"; };
+		D48A28B91CAFD85C001FA725 /* June20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June20.txt; sourceTree = "<group>"; };
+		D48A28BA1CAFD85C001FA725 /* June21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June21.txt; sourceTree = "<group>"; };
+		D48A28BB1CAFD85C001FA725 /* June22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June22.txt; sourceTree = "<group>"; };
+		D48A28BC1CAFD85C001FA725 /* June23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June23.txt; sourceTree = "<group>"; };
+		D48A28BD1CAFD85C001FA725 /* June24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June24.txt; sourceTree = "<group>"; };
+		D48A28BE1CAFD85C001FA725 /* June25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June25.txt; sourceTree = "<group>"; };
+		D48A28BF1CAFD85C001FA725 /* June26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June26.txt; sourceTree = "<group>"; };
+		D48A28C01CAFD85C001FA725 /* June27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June27.txt; sourceTree = "<group>"; };
+		D48A28C11CAFD85C001FA725 /* June28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June28.txt; sourceTree = "<group>"; };
+		D48A28C21CAFD85C001FA725 /* June29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June29.txt; sourceTree = "<group>"; };
+		D48A28C31CAFD85C001FA725 /* June3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June3.txt; sourceTree = "<group>"; };
+		D48A28C41CAFD85C001FA725 /* June30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June30.txt; sourceTree = "<group>"; };
+		D48A28C51CAFD85C001FA725 /* June4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June4.txt; sourceTree = "<group>"; };
+		D48A28C61CAFD85C001FA725 /* June5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June5.txt; sourceTree = "<group>"; };
+		D48A28C71CAFD85C001FA725 /* June6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June6.txt; sourceTree = "<group>"; };
+		D48A28C81CAFD85C001FA725 /* June7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June7.txt; sourceTree = "<group>"; };
+		D48A28C91CAFD85C001FA725 /* June8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June8.txt; sourceTree = "<group>"; };
+		D48A28CA1CAFD85C001FA725 /* June9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = June9.txt; sourceTree = "<group>"; };
+		D48A28EC1CAFD85C001FA725 /* November1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November1.txt; sourceTree = "<group>"; };
+		D48A28ED1CAFD85C001FA725 /* November10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November10.txt; sourceTree = "<group>"; };
+		D48A28EE1CAFD85C001FA725 /* November11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November11.txt; sourceTree = "<group>"; };
+		D48A28EF1CAFD85C001FA725 /* November12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November12.txt; sourceTree = "<group>"; };
+		D48A28F01CAFD85C001FA725 /* November13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November13.txt; sourceTree = "<group>"; };
+		D48A28F11CAFD85C001FA725 /* November14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November14.txt; sourceTree = "<group>"; };
+		D48A28F21CAFD85C001FA725 /* November15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November15.txt; sourceTree = "<group>"; };
+		D48A28F31CAFD85C001FA725 /* November16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November16.txt; sourceTree = "<group>"; };
+		D48A28F41CAFD85C001FA725 /* November17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November17.txt; sourceTree = "<group>"; };
+		D48A28F51CAFD85C001FA725 /* November18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November18.txt; sourceTree = "<group>"; };
+		D48A28F61CAFD85C001FA725 /* November19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November19.txt; sourceTree = "<group>"; };
+		D48A28F71CAFD85C001FA725 /* November2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November2.txt; sourceTree = "<group>"; };
+		D48A28F81CAFD85C001FA725 /* November20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November20.txt; sourceTree = "<group>"; };
+		D48A28F91CAFD85C001FA725 /* November21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November21.txt; sourceTree = "<group>"; };
+		D48A28FA1CAFD85C001FA725 /* November22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November22.txt; sourceTree = "<group>"; };
+		D48A28FB1CAFD85C001FA725 /* November23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November23.txt; sourceTree = "<group>"; };
+		D48A28FC1CAFD85C001FA725 /* November24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November24.txt; sourceTree = "<group>"; };
+		D48A28FD1CAFD85C001FA725 /* November25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November25.txt; sourceTree = "<group>"; };
+		D48A28FE1CAFD85C001FA725 /* November26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November26.txt; sourceTree = "<group>"; };
+		D48A28FF1CAFD85C001FA725 /* November27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November27.txt; sourceTree = "<group>"; };
+		D48A29001CAFD85C001FA725 /* November28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November28.txt; sourceTree = "<group>"; };
+		D48A29011CAFD85C001FA725 /* November29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November29.txt; sourceTree = "<group>"; };
+		D48A29021CAFD85C001FA725 /* November3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November3.txt; sourceTree = "<group>"; };
+		D48A29031CAFD85C001FA725 /* November30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November30.txt; sourceTree = "<group>"; };
+		D48A29041CAFD85C001FA725 /* November4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November4.txt; sourceTree = "<group>"; };
+		D48A29051CAFD85C001FA725 /* November5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November5.txt; sourceTree = "<group>"; };
+		D48A29061CAFD85C001FA725 /* November6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November6.txt; sourceTree = "<group>"; };
+		D48A29071CAFD85C001FA725 /* November7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November7.txt; sourceTree = "<group>"; };
+		D48A29081CAFD85C001FA725 /* November8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November8.txt; sourceTree = "<group>"; };
+		D48A29091CAFD85C001FA725 /* November9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = November9.txt; sourceTree = "<group>"; };
+		D48A290B1CAFD85C001FA725 /* October1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October1.txt; sourceTree = "<group>"; };
+		D48A290C1CAFD85C001FA725 /* October10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October10.txt; sourceTree = "<group>"; };
+		D48A290D1CAFD85C001FA725 /* October11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October11.txt; sourceTree = "<group>"; };
+		D48A290E1CAFD85C001FA725 /* October12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October12.txt; sourceTree = "<group>"; };
+		D48A290F1CAFD85C001FA725 /* October13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October13.txt; sourceTree = "<group>"; };
+		D48A29101CAFD85C001FA725 /* October14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October14.txt; sourceTree = "<group>"; };
+		D48A29111CAFD85C001FA725 /* October15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October15.txt; sourceTree = "<group>"; };
+		D48A29121CAFD85C001FA725 /* October16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October16.txt; sourceTree = "<group>"; };
+		D48A29131CAFD85C001FA725 /* October17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October17.txt; sourceTree = "<group>"; };
+		D48A29141CAFD85C001FA725 /* October18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October18.txt; sourceTree = "<group>"; };
+		D48A29151CAFD85C001FA725 /* October19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October19.txt; sourceTree = "<group>"; };
+		D48A29161CAFD85C001FA725 /* October2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October2.txt; sourceTree = "<group>"; };
+		D48A29171CAFD85C001FA725 /* October20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October20.txt; sourceTree = "<group>"; };
+		D48A29181CAFD85C001FA725 /* October21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October21.txt; sourceTree = "<group>"; };
+		D48A29191CAFD85C001FA725 /* October22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October22.txt; sourceTree = "<group>"; };
+		D48A291A1CAFD85C001FA725 /* October23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October23.txt; sourceTree = "<group>"; };
+		D48A291B1CAFD85C001FA725 /* October24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October24.txt; sourceTree = "<group>"; };
+		D48A291C1CAFD85C001FA725 /* October25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October25.txt; sourceTree = "<group>"; };
+		D48A291D1CAFD85C001FA725 /* October26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October26.txt; sourceTree = "<group>"; };
+		D48A291E1CAFD85C001FA725 /* October27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October27.txt; sourceTree = "<group>"; };
+		D48A291F1CAFD85C001FA725 /* October28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October28.txt; sourceTree = "<group>"; };
+		D48A29201CAFD85C001FA725 /* October29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October29.txt; sourceTree = "<group>"; };
+		D48A29211CAFD85C001FA725 /* October3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October3.txt; sourceTree = "<group>"; };
+		D48A29221CAFD85C001FA725 /* October30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October30.txt; sourceTree = "<group>"; };
+		D48A29231CAFD85C001FA725 /* October31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October31.txt; sourceTree = "<group>"; };
+		D48A29241CAFD85C001FA725 /* October4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October4.txt; sourceTree = "<group>"; };
+		D48A29251CAFD85C001FA725 /* October5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October5.txt; sourceTree = "<group>"; };
+		D48A29261CAFD85C001FA725 /* October6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October6.txt; sourceTree = "<group>"; };
+		D48A29271CAFD85C001FA725 /* October7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October7.txt; sourceTree = "<group>"; };
+		D48A29281CAFD85C001FA725 /* October8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October8.txt; sourceTree = "<group>"; };
+		D48A29291CAFD85C001FA725 /* October9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = October9.txt; sourceTree = "<group>"; };
+		D48A292B1CAFD85C001FA725 /* September1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September1.txt; sourceTree = "<group>"; };
+		D48A292C1CAFD85C001FA725 /* September10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September10.txt; sourceTree = "<group>"; };
+		D48A292D1CAFD85C001FA725 /* September11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September11.txt; sourceTree = "<group>"; };
+		D48A292E1CAFD85C001FA725 /* September12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September12.txt; sourceTree = "<group>"; };
+		D48A292F1CAFD85C001FA725 /* September13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September13.txt; sourceTree = "<group>"; };
+		D48A29301CAFD85C001FA725 /* September14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September14.txt; sourceTree = "<group>"; };
+		D48A29311CAFD85C001FA725 /* September15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September15.txt; sourceTree = "<group>"; };
+		D48A29321CAFD85C001FA725 /* September16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September16.txt; sourceTree = "<group>"; };
+		D48A29331CAFD85C001FA725 /* September17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September17.txt; sourceTree = "<group>"; };
+		D48A29341CAFD85C001FA725 /* September18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September18.txt; sourceTree = "<group>"; };
+		D48A29351CAFD85C001FA725 /* September19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September19.txt; sourceTree = "<group>"; };
+		D48A29361CAFD85C001FA725 /* September2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September2.txt; sourceTree = "<group>"; };
+		D48A29371CAFD85C001FA725 /* September20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September20.txt; sourceTree = "<group>"; };
+		D48A29381CAFD85C001FA725 /* September21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September21.txt; sourceTree = "<group>"; };
+		D48A29391CAFD85C001FA725 /* September22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September22.txt; sourceTree = "<group>"; };
+		D48A293A1CAFD85C001FA725 /* September23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September23.txt; sourceTree = "<group>"; };
+		D48A293B1CAFD85C001FA725 /* September24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September24.txt; sourceTree = "<group>"; };
+		D48A293C1CAFD85C001FA725 /* September25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September25.txt; sourceTree = "<group>"; };
+		D48A293D1CAFD85C001FA725 /* September26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September26.txt; sourceTree = "<group>"; };
+		D48A293E1CAFD85C001FA725 /* September27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September27.txt; sourceTree = "<group>"; };
+		D48A293F1CAFD85C001FA725 /* September28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September28.txt; sourceTree = "<group>"; };
+		D48A29401CAFD85C001FA725 /* September29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September29.txt; sourceTree = "<group>"; };
+		D48A29411CAFD85C001FA725 /* September3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September3.txt; sourceTree = "<group>"; };
+		D48A29421CAFD85C001FA725 /* September30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September30.txt; sourceTree = "<group>"; };
+		D48A29431CAFD85C001FA725 /* September4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September4.txt; sourceTree = "<group>"; };
+		D48A29441CAFD85C001FA725 /* September5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September5.txt; sourceTree = "<group>"; };
+		D48A29451CAFD85C001FA725 /* September6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September6.txt; sourceTree = "<group>"; };
+		D48A29461CAFD85C001FA725 /* September7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September7.txt; sourceTree = "<group>"; };
+		D48A29471CAFD85C001FA725 /* September8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September8.txt; sourceTree = "<group>"; };
+		D48A29481CAFD85C001FA725 /* September9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = September9.txt; sourceTree = "<group>"; };
+		D48A2A7C1CAFDF82001FA725 /* button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3.png; sourceTree = "<group>"; };
+		D48A2A7F1CAFE348001FA725 /* May1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May1.txt; sourceTree = "<group>"; };
+		D48A2A801CAFE348001FA725 /* May10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May10.txt; sourceTree = "<group>"; };
+		D48A2A811CAFE348001FA725 /* May11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May11.txt; sourceTree = "<group>"; };
+		D48A2A821CAFE348001FA725 /* May12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May12.txt; sourceTree = "<group>"; };
+		D48A2A831CAFE348001FA725 /* May13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May13.txt; sourceTree = "<group>"; };
+		D48A2A841CAFE348001FA725 /* May14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May14.txt; sourceTree = "<group>"; };
+		D48A2A851CAFE348001FA725 /* May15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May15.txt; sourceTree = "<group>"; };
+		D48A2A861CAFE348001FA725 /* May16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May16.txt; sourceTree = "<group>"; };
+		D48A2A871CAFE348001FA725 /* May17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May17.txt; sourceTree = "<group>"; };
+		D48A2A881CAFE348001FA725 /* May18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May18.txt; sourceTree = "<group>"; };
+		D48A2A891CAFE348001FA725 /* May19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May19.txt; sourceTree = "<group>"; };
+		D48A2A8A1CAFE348001FA725 /* May2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May2.txt; sourceTree = "<group>"; };
+		D48A2A8B1CAFE348001FA725 /* May20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May20.txt; sourceTree = "<group>"; };
+		D48A2A8C1CAFE348001FA725 /* May21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May21.txt; sourceTree = "<group>"; };
+		D48A2A8D1CAFE348001FA725 /* May22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May22.txt; sourceTree = "<group>"; };
+		D48A2A8E1CAFE348001FA725 /* May23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May23.txt; sourceTree = "<group>"; };
+		D48A2A8F1CAFE348001FA725 /* May24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May24.txt; sourceTree = "<group>"; };
+		D48A2A901CAFE348001FA725 /* May25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May25.txt; sourceTree = "<group>"; };
+		D48A2A911CAFE348001FA725 /* May26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May26.txt; sourceTree = "<group>"; };
+		D48A2A921CAFE348001FA725 /* May27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May27.txt; sourceTree = "<group>"; };
+		D48A2A931CAFE348001FA725 /* May28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May28.txt; sourceTree = "<group>"; };
+		D48A2A941CAFE348001FA725 /* May29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May29.txt; sourceTree = "<group>"; };
+		D48A2A951CAFE348001FA725 /* May3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May3.txt; sourceTree = "<group>"; };
+		D48A2A961CAFE348001FA725 /* May30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May30.txt; sourceTree = "<group>"; };
+		D48A2A971CAFE348001FA725 /* May31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May31.txt; sourceTree = "<group>"; };
+		D48A2A981CAFE348001FA725 /* May4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May4.txt; sourceTree = "<group>"; };
+		D48A2A991CAFE348001FA725 /* May5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May5.txt; sourceTree = "<group>"; };
+		D48A2A9A1CAFE348001FA725 /* May6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May6.txt; sourceTree = "<group>"; };
+		D48A2A9B1CAFE348001FA725 /* May7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May7.txt; sourceTree = "<group>"; };
+		D48A2A9C1CAFE348001FA725 /* May8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May8.txt; sourceTree = "<group>"; };
+		D48A2A9D1CAFE348001FA725 /* May9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = May9.txt; sourceTree = "<group>"; };
+		D4A303321C9C332000D674E5 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		D4A303331C9C332000D674E5 /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@2x.png"; sourceTree = "<group>"; };
+		D4A303341C9C332000D674E5 /* ButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonHighlighted.png; sourceTree = "<group>"; };
+		D4A303351C9C332000D674E5 /* ButtonHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonHighlighted@2x.png"; sourceTree = "<group>"; };
+		D4A3033E1C9C3C4C00D674E5 /* fon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fon2.png; path = "Just for Today/Images.xcassets/fon2.imageset/fon2.png"; sourceTree = "<group>"; };
+		D4A303401C9C3C7500D674E5 /* FON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FON.png; path = "Just for Today/Images.xcassets/FON-1.imageset/FON.png"; sourceTree = "<group>"; };
+		D4F2D8571D381C1600F6D43B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4FA3A501C8EDBD4001C27C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4FA3A571C8F22BF001C27C5 /* March1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March1.txt; sourceTree = "<group>"; };
+		D4FA3A581C8F22BF001C27C5 /* March2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March2.txt; sourceTree = "<group>"; };
+		D4FA3A591C8F22BF001C27C5 /* March3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March3.txt; sourceTree = "<group>"; };
+		D4FA3A5A1C8F22BF001C27C5 /* March4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March4.txt; sourceTree = "<group>"; };
+		D4FA3A5B1C8F22BF001C27C5 /* March5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March5.txt; sourceTree = "<group>"; };
+		D4FA3A5C1C8F22BF001C27C5 /* March6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March6.txt; sourceTree = "<group>"; };
+		D4FA3A5D1C8F22BF001C27C5 /* March7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March7.txt; sourceTree = "<group>"; };
+		D4FA3A5E1C8F22BF001C27C5 /* March8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March8.txt; sourceTree = "<group>"; };
+		D4FA3A5F1C8F22BF001C27C5 /* March9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March9.txt; sourceTree = "<group>"; };
+		D4FA3A601C8F22BF001C27C5 /* March10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March10.txt; sourceTree = "<group>"; };
+		D4FA3A611C8F22BF001C27C5 /* March11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March11.txt; sourceTree = "<group>"; };
+		D4FA3A621C8F22BF001C27C5 /* March12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March12.txt; sourceTree = "<group>"; };
+		D4FA3A631C8F22BF001C27C5 /* March13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March13.txt; sourceTree = "<group>"; };
+		D4FA3A641C8F22BF001C27C5 /* March14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March14.txt; sourceTree = "<group>"; };
+		D4FA3A651C8F22BF001C27C5 /* March15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March15.txt; sourceTree = "<group>"; };
+		D4FA3A661C8F22BF001C27C5 /* March16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March16.txt; sourceTree = "<group>"; };
+		D4FA3A671C8F22BF001C27C5 /* March17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March17.txt; sourceTree = "<group>"; };
+		D4FA3A681C8F22BF001C27C5 /* March18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March18.txt; sourceTree = "<group>"; };
+		D4FA3A691C8F22BF001C27C5 /* March19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March19.txt; sourceTree = "<group>"; };
+		D4FA3A6A1C8F22BF001C27C5 /* March20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March20.txt; sourceTree = "<group>"; };
+		D4FA3A6B1C8F22BF001C27C5 /* March21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March21.txt; sourceTree = "<group>"; };
+		D4FA3A6C1C8F22BF001C27C5 /* March22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March22.txt; sourceTree = "<group>"; };
+		D4FA3A6D1C8F22BF001C27C5 /* March23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March23.txt; sourceTree = "<group>"; };
+		D4FA3A6E1C8F22BF001C27C5 /* March24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March24.txt; sourceTree = "<group>"; };
+		D4FA3A6F1C8F22BF001C27C5 /* March25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March25.txt; sourceTree = "<group>"; };
+		D4FA3A701C8F22BF001C27C5 /* March26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March26.txt; sourceTree = "<group>"; };
+		D4FA3A711C8F22BF001C27C5 /* March27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March27.txt; sourceTree = "<group>"; };
+		D4FA3A721C8F22BF001C27C5 /* March28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March28.txt; sourceTree = "<group>"; };
+		D4FA3A731C8F22BF001C27C5 /* March29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March29.txt; sourceTree = "<group>"; };
+		D4FA3A741C8F22BF001C27C5 /* March30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March30.txt; sourceTree = "<group>"; };
+		D4FA3A751C8F22BF001C27C5 /* March31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = March31.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +834,22 @@
 		40709549173BCA2900F6750E = {
 			isa = PBXGroup;
 			children = (
+				D4F2D8571D381C1600F6D43B /* Default-568h@2x.png */,
+				D48A2A7E1CAFE348001FA725 /* May */,
+				D48A280E1CAFD85C001FA725 /* August */,
+				D48A282E1CAFD85C001FA725 /* December */,
+				D48A284E1CAFD85C001FA725 /* February */,
+				D48A286C1CAFD85C001FA725 /* January */,
+				D48A288C1CAFD85C001FA725 /* July */,
+				D48A28AC1CAFD85C001FA725 /* June */,
+				D48A28EB1CAFD85C001FA725 /* November */,
+				D48A290A1CAFD85C001FA725 /* October */,
+				D48A292A1CAFD85C001FA725 /* September */,
+				D48A27D11CAFD81E001FA725 /* April */,
+				D4FA3A561C8F2274001C27C5 /* March */,
+				4025F2E4174636980027BFFD /* Today.h */,
+				4025F2E5174636980027BFFD /* Today.m */,
+				407FB72A173BE4F400D6B56A /* Fon */,
 				4070955B173BCA2900F6750E /* Just for Today */,
 				4070957F173BCA2A00F6750E /* Just for TodayTests */,
 				40709554173BCA2900F6750E /* Frameworks */,
@@ -122,6 +885,7 @@
 				4070956D173BCA2A00F6750E /* MainStoryboard.storyboard */,
 				40709570173BCA2A00F6750E /* ViewController.h */,
 				40709571173BCA2A00F6750E /* ViewController.m */,
+				D4FA3A501C8EDBD4001C27C5 /* Images.xcassets */,
 				4070955C173BCA2900F6750E /* Supporting Files */,
 			);
 			path = "Just for Today";
@@ -134,9 +898,6 @@
 				4070955E173BCA2900F6750E /* InfoPlist.strings */,
 				40709561173BCA2900F6750E /* main.m */,
 				40709563173BCA2900F6750E /* Just for Today-Prefix.pch */,
-				40709567173BCA2900F6750E /* Default.png */,
-				40709569173BCA2A00F6750E /* Default@2x.png */,
-				4070956B173BCA2A00F6750E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +919,470 @@
 				40709582173BCA2A00F6750E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		407FB72A173BE4F400D6B56A /* Fon */ = {
+			isa = PBXGroup;
+			children = (
+				D48A2A7C1CAFDF82001FA725 /* button3.png */,
+				D4A303401C9C3C7500D674E5 /* FON.png */,
+				D4A3033E1C9C3C4C00D674E5 /* fon2.png */,
+				D4A303321C9C332000D674E5 /* Button.png */,
+				D4A303331C9C332000D674E5 /* Button@2x.png */,
+				D4A303341C9C332000D674E5 /* ButtonHighlighted.png */,
+				D4A303351C9C332000D674E5 /* ButtonHighlighted@2x.png */,
+			);
+			name = Fon;
+			sourceTree = "<group>";
+		};
+		D48A27D11CAFD81E001FA725 /* April */ = {
+			isa = PBXGroup;
+			children = (
+				D48A27D21CAFD81E001FA725 /* April1.txt */,
+				D48A27D31CAFD81E001FA725 /* April10.txt */,
+				D48A27D41CAFD81E001FA725 /* April11.txt */,
+				D48A27D51CAFD81E001FA725 /* April12.txt */,
+				D48A27D61CAFD81E001FA725 /* April13.txt */,
+				D48A27D71CAFD81E001FA725 /* April14.txt */,
+				D48A27D81CAFD81E001FA725 /* April15.txt */,
+				D48A27D91CAFD81E001FA725 /* April16.txt */,
+				D48A27DA1CAFD81E001FA725 /* April17.txt */,
+				D48A27DB1CAFD81E001FA725 /* April18.txt */,
+				D48A27DC1CAFD81E001FA725 /* April19.txt */,
+				D48A27DD1CAFD81E001FA725 /* April2.txt */,
+				D48A27DE1CAFD81E001FA725 /* April20.txt */,
+				D48A27DF1CAFD81E001FA725 /* April21.txt */,
+				D48A27E01CAFD81E001FA725 /* April22.txt */,
+				D48A27E11CAFD81E001FA725 /* April23.txt */,
+				D48A27E21CAFD81E001FA725 /* April24.txt */,
+				D48A27E31CAFD81E001FA725 /* April25.txt */,
+				D48A27E41CAFD81E001FA725 /* April26.txt */,
+				D48A27E51CAFD81E001FA725 /* April27.txt */,
+				D48A27E61CAFD81E001FA725 /* April28.txt */,
+				D48A27E71CAFD81E001FA725 /* April29.txt */,
+				D48A27E81CAFD81E001FA725 /* April3.txt */,
+				D48A27E91CAFD81E001FA725 /* April30.txt */,
+				D48A27EA1CAFD81E001FA725 /* April4.txt */,
+				D48A27EB1CAFD81E001FA725 /* April5.txt */,
+				D48A27EC1CAFD81E001FA725 /* April6.txt */,
+				D48A27ED1CAFD81E001FA725 /* April7.txt */,
+				D48A27EE1CAFD81E001FA725 /* April8.txt */,
+				D48A27EF1CAFD81E001FA725 /* April9.txt */,
+			);
+			path = April;
+			sourceTree = "<group>";
+		};
+		D48A280E1CAFD85C001FA725 /* August */ = {
+			isa = PBXGroup;
+			children = (
+				D48A280F1CAFD85C001FA725 /* avgust1.txt */,
+				D48A28101CAFD85C001FA725 /* avgust10.txt */,
+				D48A28111CAFD85C001FA725 /* avgust11.txt */,
+				D48A28121CAFD85C001FA725 /* avgust12.txt */,
+				D48A28131CAFD85C001FA725 /* avgust13.txt */,
+				D48A28141CAFD85C001FA725 /* avgust14.txt */,
+				D48A28151CAFD85C001FA725 /* avgust15.txt */,
+				D48A28161CAFD85C001FA725 /* avgust16.txt */,
+				D48A28171CAFD85C001FA725 /* avgust17.txt */,
+				D48A28181CAFD85C001FA725 /* avgust18.txt */,
+				D48A28191CAFD85C001FA725 /* avgust19.txt */,
+				D48A281A1CAFD85C001FA725 /* avgust2.txt */,
+				D48A281B1CAFD85C001FA725 /* avgust20.txt */,
+				D48A281C1CAFD85C001FA725 /* avgust21.txt */,
+				D48A281D1CAFD85C001FA725 /* avgust22.txt */,
+				D48A281E1CAFD85C001FA725 /* avgust23.txt */,
+				D48A281F1CAFD85C001FA725 /* avgust24.txt */,
+				D48A28201CAFD85C001FA725 /* avgust25.txt */,
+				D48A28211CAFD85C001FA725 /* avgust26.txt */,
+				D48A28221CAFD85C001FA725 /* avgust27.txt */,
+				D48A28231CAFD85C001FA725 /* avgust28.txt */,
+				D48A28241CAFD85C001FA725 /* avgust29.txt */,
+				D48A28251CAFD85C001FA725 /* avgust3.txt */,
+				D48A28261CAFD85C001FA725 /* avgust30.txt */,
+				D48A28271CAFD85C001FA725 /* avgust31.txt */,
+				D48A28281CAFD85C001FA725 /* avgust4.txt */,
+				D48A28291CAFD85C001FA725 /* avgust5.txt */,
+				D48A282A1CAFD85C001FA725 /* avgust6.txt */,
+				D48A282B1CAFD85C001FA725 /* avgust7.txt */,
+				D48A282C1CAFD85C001FA725 /* avgust8.txt */,
+				D48A282D1CAFD85C001FA725 /* avgust9.txt */,
+			);
+			path = August;
+			sourceTree = "<group>";
+		};
+		D48A282E1CAFD85C001FA725 /* December */ = {
+			isa = PBXGroup;
+			children = (
+				D48A282F1CAFD85C001FA725 /* December1.txt */,
+				D48A28301CAFD85C001FA725 /* December10.txt */,
+				D48A28311CAFD85C001FA725 /* December11.txt */,
+				D48A28321CAFD85C001FA725 /* December12.txt */,
+				D48A28331CAFD85C001FA725 /* December13.txt */,
+				D48A28341CAFD85C001FA725 /* December14.txt */,
+				D48A28351CAFD85C001FA725 /* December15.txt */,
+				D48A28361CAFD85C001FA725 /* December16.txt */,
+				D48A28371CAFD85C001FA725 /* December17.txt */,
+				D48A28381CAFD85C001FA725 /* December18.txt */,
+				D48A28391CAFD85C001FA725 /* December19.txt */,
+				D48A283A1CAFD85C001FA725 /* December2.txt */,
+				D48A283B1CAFD85C001FA725 /* December20.txt */,
+				D48A283C1CAFD85C001FA725 /* December21.txt */,
+				D48A283D1CAFD85C001FA725 /* December22.txt */,
+				D48A283E1CAFD85C001FA725 /* December23.txt */,
+				D48A283F1CAFD85C001FA725 /* December24.txt */,
+				D48A28401CAFD85C001FA725 /* December25.txt */,
+				D48A28411CAFD85C001FA725 /* December26.txt */,
+				D48A28421CAFD85C001FA725 /* December27.txt */,
+				D48A28431CAFD85C001FA725 /* December28.txt */,
+				D48A28441CAFD85C001FA725 /* December29.txt */,
+				D48A28451CAFD85C001FA725 /* December3.txt */,
+				D48A28461CAFD85C001FA725 /* December30.txt */,
+				D48A28471CAFD85C001FA725 /* December31.txt */,
+				D48A28481CAFD85C001FA725 /* December4.txt */,
+				D48A28491CAFD85C001FA725 /* December5.txt */,
+				D48A284A1CAFD85C001FA725 /* December6.txt */,
+				D48A284B1CAFD85C001FA725 /* December7.txt */,
+				D48A284C1CAFD85C001FA725 /* December8.txt */,
+				D48A284D1CAFD85C001FA725 /* December9.txt */,
+			);
+			path = December;
+			sourceTree = "<group>";
+		};
+		D48A284E1CAFD85C001FA725 /* February */ = {
+			isa = PBXGroup;
+			children = (
+				D48A284F1CAFD85C001FA725 /* February1.txt */,
+				D48A28501CAFD85C001FA725 /* February10.txt */,
+				D48A28511CAFD85C001FA725 /* February11.txt */,
+				D48A28521CAFD85C001FA725 /* February12.txt */,
+				D48A28531CAFD85C001FA725 /* February13.txt */,
+				D48A28541CAFD85C001FA725 /* February14.txt */,
+				D48A28551CAFD85C001FA725 /* February15.txt */,
+				D48A28561CAFD85C001FA725 /* February16.txt */,
+				D48A28571CAFD85C001FA725 /* February17.txt */,
+				D48A28581CAFD85C001FA725 /* February18.txt */,
+				D48A28591CAFD85C001FA725 /* February19.txt */,
+				D48A285A1CAFD85C001FA725 /* February2.txt */,
+				D48A285B1CAFD85C001FA725 /* February20.txt */,
+				D48A285C1CAFD85C001FA725 /* February21.txt */,
+				D48A285D1CAFD85C001FA725 /* February22.txt */,
+				D48A285E1CAFD85C001FA725 /* February23.txt */,
+				D48A285F1CAFD85C001FA725 /* February24.txt */,
+				D48A28601CAFD85C001FA725 /* February25.txt */,
+				D48A28611CAFD85C001FA725 /* February26.txt */,
+				D48A28621CAFD85C001FA725 /* February27.txt */,
+				D48A28631CAFD85C001FA725 /* February28.txt */,
+				D48A28641CAFD85C001FA725 /* February29.txt */,
+				D48A28651CAFD85C001FA725 /* February3.txt */,
+				D48A28661CAFD85C001FA725 /* February4.txt */,
+				D48A28671CAFD85C001FA725 /* February5.txt */,
+				D48A28681CAFD85C001FA725 /* February6.txt */,
+				D48A28691CAFD85C001FA725 /* February7.txt */,
+				D48A286A1CAFD85C001FA725 /* February8.txt */,
+				D48A286B1CAFD85C001FA725 /* February9.txt */,
+			);
+			path = February;
+			sourceTree = "<group>";
+		};
+		D48A286C1CAFD85C001FA725 /* January */ = {
+			isa = PBXGroup;
+			children = (
+				D48A286D1CAFD85C001FA725 /* Junuary1.txt */,
+				D48A286E1CAFD85C001FA725 /* Junuary10.txt */,
+				D48A286F1CAFD85C001FA725 /* Junuary11.txt */,
+				D48A28701CAFD85C001FA725 /* Junuary12.txt */,
+				D48A28711CAFD85C001FA725 /* Junuary13.txt */,
+				D48A28721CAFD85C001FA725 /* Junuary14.txt */,
+				D48A28731CAFD85C001FA725 /* Junuary15.txt */,
+				D48A28741CAFD85C001FA725 /* Junuary16.txt */,
+				D48A28751CAFD85C001FA725 /* Junuary17.txt */,
+				D48A28761CAFD85C001FA725 /* Junuary18.txt */,
+				D48A28771CAFD85C001FA725 /* Junuary19.txt */,
+				D48A28781CAFD85C001FA725 /* Junuary2.txt */,
+				D48A28791CAFD85C001FA725 /* Junuary20.txt */,
+				D48A287A1CAFD85C001FA725 /* Junuary21.txt */,
+				D48A287B1CAFD85C001FA725 /* Junuary22.txt */,
+				D48A287C1CAFD85C001FA725 /* Junuary23.txt */,
+				D48A287D1CAFD85C001FA725 /* Junuary24.txt */,
+				D48A287E1CAFD85C001FA725 /* Junuary25.txt */,
+				D48A287F1CAFD85C001FA725 /* Junuary26.txt */,
+				D48A28801CAFD85C001FA725 /* Junuary27.txt */,
+				D48A28811CAFD85C001FA725 /* Junuary28.txt */,
+				D48A28821CAFD85C001FA725 /* Junuary29.txt */,
+				D48A28831CAFD85C001FA725 /* Junuary3.txt */,
+				D48A28841CAFD85C001FA725 /* Junuary30.txt */,
+				D48A28851CAFD85C001FA725 /* Junuary31.txt */,
+				D48A28861CAFD85C001FA725 /* Junuary4.txt */,
+				D48A28871CAFD85C001FA725 /* Junuary5.txt */,
+				D48A28881CAFD85C001FA725 /* Junuary6.txt */,
+				D48A28891CAFD85C001FA725 /* Junuary7.txt */,
+				D48A288A1CAFD85C001FA725 /* Junuary8.txt */,
+				D48A288B1CAFD85C001FA725 /* Junuary9.txt */,
+			);
+			path = January;
+			sourceTree = "<group>";
+		};
+		D48A288C1CAFD85C001FA725 /* July */ = {
+			isa = PBXGroup;
+			children = (
+				D48A288D1CAFD85C001FA725 /* Jule1.txt */,
+				D48A288E1CAFD85C001FA725 /* Jule10.txt */,
+				D48A288F1CAFD85C001FA725 /* Jule11.txt */,
+				D48A28901CAFD85C001FA725 /* Jule12.txt */,
+				D48A28911CAFD85C001FA725 /* Jule13.txt */,
+				D48A28921CAFD85C001FA725 /* Jule14.txt */,
+				D48A28931CAFD85C001FA725 /* Jule15.txt */,
+				D48A28941CAFD85C001FA725 /* Jule16.txt */,
+				D48A28951CAFD85C001FA725 /* Jule17.txt */,
+				D48A28961CAFD85C001FA725 /* Jule18.txt */,
+				D48A28971CAFD85C001FA725 /* Jule19.txt */,
+				D48A28981CAFD85C001FA725 /* Jule2.txt */,
+				D48A28991CAFD85C001FA725 /* Jule20.txt */,
+				D48A289A1CAFD85C001FA725 /* Jule21.txt */,
+				D48A289B1CAFD85C001FA725 /* Jule22.txt */,
+				D48A289C1CAFD85C001FA725 /* Jule23.txt */,
+				D48A289D1CAFD85C001FA725 /* Jule24.txt */,
+				D48A289E1CAFD85C001FA725 /* Jule25.txt */,
+				D48A289F1CAFD85C001FA725 /* Jule26.txt */,
+				D48A28A01CAFD85C001FA725 /* Jule27.txt */,
+				D48A28A11CAFD85C001FA725 /* Jule28.txt */,
+				D48A28A21CAFD85C001FA725 /* Jule29.txt */,
+				D48A28A31CAFD85C001FA725 /* Jule3.txt */,
+				D48A28A41CAFD85C001FA725 /* Jule30.txt */,
+				D48A28A51CAFD85C001FA725 /* Jule31.txt */,
+				D48A28A61CAFD85C001FA725 /* Jule4.txt */,
+				D48A28A71CAFD85C001FA725 /* Jule5.txt */,
+				D48A28A81CAFD85C001FA725 /* Jule6.txt */,
+				D48A28A91CAFD85C001FA725 /* Jule7.txt */,
+				D48A28AA1CAFD85C001FA725 /* Jule8.txt */,
+				D48A28AB1CAFD85C001FA725 /* Jule9.txt */,
+			);
+			path = July;
+			sourceTree = "<group>";
+		};
+		D48A28AC1CAFD85C001FA725 /* June */ = {
+			isa = PBXGroup;
+			children = (
+				D48A28AD1CAFD85C001FA725 /* June1.txt */,
+				D48A28AE1CAFD85C001FA725 /* June10.txt */,
+				D48A28AF1CAFD85C001FA725 /* June11.txt */,
+				D48A28B01CAFD85C001FA725 /* June12.txt */,
+				D48A28B11CAFD85C001FA725 /* June13.txt */,
+				D48A28B21CAFD85C001FA725 /* June14.txt */,
+				D48A28B31CAFD85C001FA725 /* June15.txt */,
+				D48A28B41CAFD85C001FA725 /* June16.txt */,
+				D48A28B51CAFD85C001FA725 /* June17.txt */,
+				D48A28B61CAFD85C001FA725 /* June18.txt */,
+				D48A28B71CAFD85C001FA725 /* June19.txt */,
+				D48A28B81CAFD85C001FA725 /* June2.txt */,
+				D48A28B91CAFD85C001FA725 /* June20.txt */,
+				D48A28BA1CAFD85C001FA725 /* June21.txt */,
+				D48A28BB1CAFD85C001FA725 /* June22.txt */,
+				D48A28BC1CAFD85C001FA725 /* June23.txt */,
+				D48A28BD1CAFD85C001FA725 /* June24.txt */,
+				D48A28BE1CAFD85C001FA725 /* June25.txt */,
+				D48A28BF1CAFD85C001FA725 /* June26.txt */,
+				D48A28C01CAFD85C001FA725 /* June27.txt */,
+				D48A28C11CAFD85C001FA725 /* June28.txt */,
+				D48A28C21CAFD85C001FA725 /* June29.txt */,
+				D48A28C31CAFD85C001FA725 /* June3.txt */,
+				D48A28C41CAFD85C001FA725 /* June30.txt */,
+				D48A28C51CAFD85C001FA725 /* June4.txt */,
+				D48A28C61CAFD85C001FA725 /* June5.txt */,
+				D48A28C71CAFD85C001FA725 /* June6.txt */,
+				D48A28C81CAFD85C001FA725 /* June7.txt */,
+				D48A28C91CAFD85C001FA725 /* June8.txt */,
+				D48A28CA1CAFD85C001FA725 /* June9.txt */,
+			);
+			path = June;
+			sourceTree = "<group>";
+		};
+		D48A28EB1CAFD85C001FA725 /* November */ = {
+			isa = PBXGroup;
+			children = (
+				D48A28EC1CAFD85C001FA725 /* November1.txt */,
+				D48A28ED1CAFD85C001FA725 /* November10.txt */,
+				D48A28EE1CAFD85C001FA725 /* November11.txt */,
+				D48A28EF1CAFD85C001FA725 /* November12.txt */,
+				D48A28F01CAFD85C001FA725 /* November13.txt */,
+				D48A28F11CAFD85C001FA725 /* November14.txt */,
+				D48A28F21CAFD85C001FA725 /* November15.txt */,
+				D48A28F31CAFD85C001FA725 /* November16.txt */,
+				D48A28F41CAFD85C001FA725 /* November17.txt */,
+				D48A28F51CAFD85C001FA725 /* November18.txt */,
+				D48A28F61CAFD85C001FA725 /* November19.txt */,
+				D48A28F71CAFD85C001FA725 /* November2.txt */,
+				D48A28F81CAFD85C001FA725 /* November20.txt */,
+				D48A28F91CAFD85C001FA725 /* November21.txt */,
+				D48A28FA1CAFD85C001FA725 /* November22.txt */,
+				D48A28FB1CAFD85C001FA725 /* November23.txt */,
+				D48A28FC1CAFD85C001FA725 /* November24.txt */,
+				D48A28FD1CAFD85C001FA725 /* November25.txt */,
+				D48A28FE1CAFD85C001FA725 /* November26.txt */,
+				D48A28FF1CAFD85C001FA725 /* November27.txt */,
+				D48A29001CAFD85C001FA725 /* November28.txt */,
+				D48A29011CAFD85C001FA725 /* November29.txt */,
+				D48A29021CAFD85C001FA725 /* November3.txt */,
+				D48A29031CAFD85C001FA725 /* November30.txt */,
+				D48A29041CAFD85C001FA725 /* November4.txt */,
+				D48A29051CAFD85C001FA725 /* November5.txt */,
+				D48A29061CAFD85C001FA725 /* November6.txt */,
+				D48A29071CAFD85C001FA725 /* November7.txt */,
+				D48A29081CAFD85C001FA725 /* November8.txt */,
+				D48A29091CAFD85C001FA725 /* November9.txt */,
+			);
+			path = November;
+			sourceTree = "<group>";
+		};
+		D48A290A1CAFD85C001FA725 /* October */ = {
+			isa = PBXGroup;
+			children = (
+				D48A290B1CAFD85C001FA725 /* October1.txt */,
+				D48A290C1CAFD85C001FA725 /* October10.txt */,
+				D48A290D1CAFD85C001FA725 /* October11.txt */,
+				D48A290E1CAFD85C001FA725 /* October12.txt */,
+				D48A290F1CAFD85C001FA725 /* October13.txt */,
+				D48A29101CAFD85C001FA725 /* October14.txt */,
+				D48A29111CAFD85C001FA725 /* October15.txt */,
+				D48A29121CAFD85C001FA725 /* October16.txt */,
+				D48A29131CAFD85C001FA725 /* October17.txt */,
+				D48A29141CAFD85C001FA725 /* October18.txt */,
+				D48A29151CAFD85C001FA725 /* October19.txt */,
+				D48A29161CAFD85C001FA725 /* October2.txt */,
+				D48A29171CAFD85C001FA725 /* October20.txt */,
+				D48A29181CAFD85C001FA725 /* October21.txt */,
+				D48A29191CAFD85C001FA725 /* October22.txt */,
+				D48A291A1CAFD85C001FA725 /* October23.txt */,
+				D48A291B1CAFD85C001FA725 /* October24.txt */,
+				D48A291C1CAFD85C001FA725 /* October25.txt */,
+				D48A291D1CAFD85C001FA725 /* October26.txt */,
+				D48A291E1CAFD85C001FA725 /* October27.txt */,
+				D48A291F1CAFD85C001FA725 /* October28.txt */,
+				D48A29201CAFD85C001FA725 /* October29.txt */,
+				D48A29211CAFD85C001FA725 /* October3.txt */,
+				D48A29221CAFD85C001FA725 /* October30.txt */,
+				D48A29231CAFD85C001FA725 /* October31.txt */,
+				D48A29241CAFD85C001FA725 /* October4.txt */,
+				D48A29251CAFD85C001FA725 /* October5.txt */,
+				D48A29261CAFD85C001FA725 /* October6.txt */,
+				D48A29271CAFD85C001FA725 /* October7.txt */,
+				D48A29281CAFD85C001FA725 /* October8.txt */,
+				D48A29291CAFD85C001FA725 /* October9.txt */,
+			);
+			path = October;
+			sourceTree = "<group>";
+		};
+		D48A292A1CAFD85C001FA725 /* September */ = {
+			isa = PBXGroup;
+			children = (
+				D48A292B1CAFD85C001FA725 /* September1.txt */,
+				D48A292C1CAFD85C001FA725 /* September10.txt */,
+				D48A292D1CAFD85C001FA725 /* September11.txt */,
+				D48A292E1CAFD85C001FA725 /* September12.txt */,
+				D48A292F1CAFD85C001FA725 /* September13.txt */,
+				D48A29301CAFD85C001FA725 /* September14.txt */,
+				D48A29311CAFD85C001FA725 /* September15.txt */,
+				D48A29321CAFD85C001FA725 /* September16.txt */,
+				D48A29331CAFD85C001FA725 /* September17.txt */,
+				D48A29341CAFD85C001FA725 /* September18.txt */,
+				D48A29351CAFD85C001FA725 /* September19.txt */,
+				D48A29361CAFD85C001FA725 /* September2.txt */,
+				D48A29371CAFD85C001FA725 /* September20.txt */,
+				D48A29381CAFD85C001FA725 /* September21.txt */,
+				D48A29391CAFD85C001FA725 /* September22.txt */,
+				D48A293A1CAFD85C001FA725 /* September23.txt */,
+				D48A293B1CAFD85C001FA725 /* September24.txt */,
+				D48A293C1CAFD85C001FA725 /* September25.txt */,
+				D48A293D1CAFD85C001FA725 /* September26.txt */,
+				D48A293E1CAFD85C001FA725 /* September27.txt */,
+				D48A293F1CAFD85C001FA725 /* September28.txt */,
+				D48A29401CAFD85C001FA725 /* September29.txt */,
+				D48A29411CAFD85C001FA725 /* September3.txt */,
+				D48A29421CAFD85C001FA725 /* September30.txt */,
+				D48A29431CAFD85C001FA725 /* September4.txt */,
+				D48A29441CAFD85C001FA725 /* September5.txt */,
+				D48A29451CAFD85C001FA725 /* September6.txt */,
+				D48A29461CAFD85C001FA725 /* September7.txt */,
+				D48A29471CAFD85C001FA725 /* September8.txt */,
+				D48A29481CAFD85C001FA725 /* September9.txt */,
+			);
+			path = September;
+			sourceTree = "<group>";
+		};
+		D48A2A7E1CAFE348001FA725 /* May */ = {
+			isa = PBXGroup;
+			children = (
+				D48A2A7F1CAFE348001FA725 /* May1.txt */,
+				D48A2A801CAFE348001FA725 /* May10.txt */,
+				D48A2A811CAFE348001FA725 /* May11.txt */,
+				D48A2A821CAFE348001FA725 /* May12.txt */,
+				D48A2A831CAFE348001FA725 /* May13.txt */,
+				D48A2A841CAFE348001FA725 /* May14.txt */,
+				D48A2A851CAFE348001FA725 /* May15.txt */,
+				D48A2A861CAFE348001FA725 /* May16.txt */,
+				D48A2A871CAFE348001FA725 /* May17.txt */,
+				D48A2A881CAFE348001FA725 /* May18.txt */,
+				D48A2A891CAFE348001FA725 /* May19.txt */,
+				D48A2A8A1CAFE348001FA725 /* May2.txt */,
+				D48A2A8B1CAFE348001FA725 /* May20.txt */,
+				D48A2A8C1CAFE348001FA725 /* May21.txt */,
+				D48A2A8D1CAFE348001FA725 /* May22.txt */,
+				D48A2A8E1CAFE348001FA725 /* May23.txt */,
+				D48A2A8F1CAFE348001FA725 /* May24.txt */,
+				D48A2A901CAFE348001FA725 /* May25.txt */,
+				D48A2A911CAFE348001FA725 /* May26.txt */,
+				D48A2A921CAFE348001FA725 /* May27.txt */,
+				D48A2A931CAFE348001FA725 /* May28.txt */,
+				D48A2A941CAFE348001FA725 /* May29.txt */,
+				D48A2A951CAFE348001FA725 /* May3.txt */,
+				D48A2A961CAFE348001FA725 /* May30.txt */,
+				D48A2A971CAFE348001FA725 /* May31.txt */,
+				D48A2A981CAFE348001FA725 /* May4.txt */,
+				D48A2A991CAFE348001FA725 /* May5.txt */,
+				D48A2A9A1CAFE348001FA725 /* May6.txt */,
+				D48A2A9B1CAFE348001FA725 /* May7.txt */,
+				D48A2A9C1CAFE348001FA725 /* May8.txt */,
+				D48A2A9D1CAFE348001FA725 /* May9.txt */,
+			);
+			path = May;
+			sourceTree = "<group>";
+		};
+		D4FA3A561C8F2274001C27C5 /* March */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA3A571C8F22BF001C27C5 /* March1.txt */,
+				D4FA3A581C8F22BF001C27C5 /* March2.txt */,
+				D4FA3A591C8F22BF001C27C5 /* March3.txt */,
+				D4FA3A5A1C8F22BF001C27C5 /* March4.txt */,
+				D4FA3A5B1C8F22BF001C27C5 /* March5.txt */,
+				D4FA3A5C1C8F22BF001C27C5 /* March6.txt */,
+				D4FA3A5D1C8F22BF001C27C5 /* March7.txt */,
+				D4FA3A5E1C8F22BF001C27C5 /* March8.txt */,
+				D4FA3A5F1C8F22BF001C27C5 /* March9.txt */,
+				D4FA3A601C8F22BF001C27C5 /* March10.txt */,
+				D4FA3A611C8F22BF001C27C5 /* March11.txt */,
+				D4FA3A621C8F22BF001C27C5 /* March12.txt */,
+				D4FA3A631C8F22BF001C27C5 /* March13.txt */,
+				D4FA3A641C8F22BF001C27C5 /* March14.txt */,
+				D4FA3A651C8F22BF001C27C5 /* March15.txt */,
+				D4FA3A661C8F22BF001C27C5 /* March16.txt */,
+				D4FA3A671C8F22BF001C27C5 /* March17.txt */,
+				D4FA3A681C8F22BF001C27C5 /* March18.txt */,
+				D4FA3A691C8F22BF001C27C5 /* March19.txt */,
+				D4FA3A6A1C8F22BF001C27C5 /* March20.txt */,
+				D4FA3A6B1C8F22BF001C27C5 /* March21.txt */,
+				D4FA3A6C1C8F22BF001C27C5 /* March22.txt */,
+				D4FA3A6D1C8F22BF001C27C5 /* March23.txt */,
+				D4FA3A6E1C8F22BF001C27C5 /* March24.txt */,
+				D4FA3A6F1C8F22BF001C27C5 /* March25.txt */,
+				D4FA3A701C8F22BF001C27C5 /* March26.txt */,
+				D4FA3A711C8F22BF001C27C5 /* March27.txt */,
+				D4FA3A721C8F22BF001C27C5 /* March28.txt */,
+				D4FA3A731C8F22BF001C27C5 /* March29.txt */,
+				D4FA3A741C8F22BF001C27C5 /* March30.txt */,
+				D4FA3A751C8F22BF001C27C5 /* March31.txt */,
+			);
+			name = March;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +1422,7 @@
 			name = "Just for TodayTests";
 			productName = "Just for TodayTests";
 			productReference = 40709578173BCA2A00F6750E /* Just for TodayTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,11 +1430,17 @@
 		4070954A173BCA2900F6750E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Капитан";
+				TargetAttributes = {
+					40709551173BCA2900F6750E = {
+						DevelopmentTeam = 48BAMVNW77;
+					};
+				};
 			};
 			buildConfigurationList = 4070954D173BCA2900F6750E /* Build configuration list for PBXProject "Just for Today" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,10 +1463,382 @@
 			buildActionMask = 2147483647;
 			files = (
 				40709560173BCA2900F6750E /* InfoPlist.strings in Resources */,
-				40709568173BCA2900F6750E /* Default.png in Resources */,
-				4070956A173BCA2A00F6750E /* Default@2x.png in Resources */,
-				4070956C173BCA2A00F6750E /* Default-568h@2x.png in Resources */,
+				D48A2A431CAFD85C001FA725 /* October15.txt in Resources */,
+				D4FA3A871C8F22BF001C27C5 /* March18.txt in Resources */,
+				D48A29F01CAFD85C001FA725 /* June22.txt in Resources */,
+				D48A27FB1CAFD81E001FA725 /* April2.txt in Resources */,
+				D48A2A2F1CAFD85C001FA725 /* November24.txt in Resources */,
+				D48A2AA21CAFE348001FA725 /* May13.txt in Resources */,
+				D48A28041CAFD81E001FA725 /* April28.txt in Resources */,
+				D48A2A771CAFD85C001FA725 /* September7.txt in Resources */,
+				D48A29CA1CAFD85C001FA725 /* Jule16.txt in Resources */,
+				D48A29501CAFD85C001FA725 /* avgust16.txt in Resources */,
+				D48A29801CAFD85C001FA725 /* December31.txt in Resources */,
+				D48A2AB71CAFE348001FA725 /* May4.txt in Resources */,
+				D48A294B1CAFD85C001FA725 /* avgust11.txt in Resources */,
+				D48A295D1CAFD85C001FA725 /* avgust28.txt in Resources */,
+				D48A295E1CAFD85C001FA725 /* avgust29.txt in Resources */,
+				D48A29D01CAFD85C001FA725 /* Jule21.txt in Resources */,
+				D48A29B81CAFD85C001FA725 /* Junuary28.txt in Resources */,
+				D48A2A231CAFD85C001FA725 /* November13.txt in Resources */,
+				D48A29EA1CAFD85C001FA725 /* June17.txt in Resources */,
+				D48A29C51CAFD85C001FA725 /* Jule11.txt in Resources */,
+				D4FA3A511C8EDBD4001C27C5 /* Images.xcassets in Resources */,
+				D48A29931CAFD85C001FA725 /* February20.txt in Resources */,
+				D48A2A521CAFD85C001FA725 /* October29.txt in Resources */,
+				D48A294A1CAFD85C001FA725 /* avgust10.txt in Resources */,
+				D4FA3A8D1C8F22BF001C27C5 /* March24.txt in Resources */,
+				D48A29FC1CAFD85C001FA725 /* June6.txt in Resources */,
+				D48A2A791CAFD85C001FA725 /* September9.txt in Resources */,
+				D48A2A6A1CAFD85C001FA725 /* September22.txt in Resources */,
+				D48A29741CAFD85C001FA725 /* December20.txt in Resources */,
+				D48A29AD1CAFD85C001FA725 /* Junuary18.txt in Resources */,
+				D4FA3A771C8F22BF001C27C5 /* March2.txt in Resources */,
+				D48A2A781CAFD85C001FA725 /* September8.txt in Resources */,
+				D48A2A1F1CAFD85C001FA725 /* November1.txt in Resources */,
+				D48A29641CAFD85C001FA725 /* avgust6.txt in Resources */,
+				D4F2D8581D381C1600F6D43B /* Default-568h@2x.png in Resources */,
+				D48A296E1CAFD85C001FA725 /* December15.txt in Resources */,
+				D48A2A2C1CAFD85C001FA725 /* November21.txt in Resources */,
+				D48A2A221CAFD85C001FA725 /* November12.txt in Resources */,
+				D48A29A21CAFD85C001FA725 /* February8.txt in Resources */,
+				D48A29A41CAFD85C001FA725 /* Junuary1.txt in Resources */,
+				D48A295B1CAFD85C001FA725 /* avgust26.txt in Resources */,
+				D48A2AB21CAFE348001FA725 /* May28.txt in Resources */,
+				D48A29A11CAFD85C001FA725 /* February7.txt in Resources */,
+				D48A29551CAFD85C001FA725 /* avgust20.txt in Resources */,
+				D48A296F1CAFD85C001FA725 /* December16.txt in Resources */,
+				D48A29D11CAFD85C001FA725 /* Jule22.txt in Resources */,
+				D48A27F41CAFD81E001FA725 /* April13.txt in Resources */,
+				D48A2A2A1CAFD85C001FA725 /* November2.txt in Resources */,
+				D48A29EF1CAFD85C001FA725 /* June21.txt in Resources */,
+				D48A294F1CAFD85C001FA725 /* avgust15.txt in Resources */,
+				D48A294C1CAFD85C001FA725 /* avgust12.txt in Resources */,
+				D48A2AB61CAFE348001FA725 /* May31.txt in Resources */,
+				D48A29911CAFD85C001FA725 /* February19.txt in Resources */,
+				D48A299B1CAFD85C001FA725 /* February28.txt in Resources */,
+				D4FA3A931C8F22BF001C27C5 /* March30.txt in Resources */,
+				D4FA3A7E1C8F22BF001C27C5 /* March9.txt in Resources */,
+				D48A2A9E1CAFE348001FA725 /* May1.txt in Resources */,
+				D48A29A71CAFD85C001FA725 /* Junuary12.txt in Resources */,
+				D48A29EC1CAFD85C001FA725 /* June19.txt in Resources */,
+				D48A2A331CAFD85C001FA725 /* November28.txt in Resources */,
+				D48A29681CAFD85C001FA725 /* December1.txt in Resources */,
+				D48A2AA11CAFE348001FA725 /* May12.txt in Resources */,
+				D48A294E1CAFD85C001FA725 /* avgust14.txt in Resources */,
+				D48A29791CAFD85C001FA725 /* December25.txt in Resources */,
 				4070956F173BCA2A00F6750E /* MainStoryboard.storyboard in Resources */,
+				D48A29FB1CAFD85C001FA725 /* June5.txt in Resources */,
+				D48A29941CAFD85C001FA725 /* February21.txt in Resources */,
+				D48A2A461CAFD85C001FA725 /* October18.txt in Resources */,
+				D48A298A1CAFD85C001FA725 /* February12.txt in Resources */,
+				D48A2AAD1CAFE348001FA725 /* May23.txt in Resources */,
+				D48A2A5E1CAFD85C001FA725 /* September11.txt in Resources */,
+				D4FA3A8B1C8F22BF001C27C5 /* March22.txt in Resources */,
+				D48A2A661CAFD85C001FA725 /* September19.txt in Resources */,
+				D48A297C1CAFD85C001FA725 /* December28.txt in Resources */,
+				D48A294D1CAFD85C001FA725 /* avgust13.txt in Resources */,
+				D48A29DE1CAFD85C001FA725 /* Jule6.txt in Resources */,
+				D48A27FC1CAFD81E001FA725 /* April20.txt in Resources */,
+				D48A29D51CAFD85C001FA725 /* Jule26.txt in Resources */,
+				D48A298E1CAFD85C001FA725 /* February16.txt in Resources */,
+				D48A2A581CAFD85C001FA725 /* October6.txt in Resources */,
+				D48A2ABB1CAFE348001FA725 /* May8.txt in Resources */,
+				D4FA3A781C8F22BF001C27C5 /* March3.txt in Resources */,
+				D48A29851CAFD85C001FA725 /* December8.txt in Resources */,
+				D48A29DC1CAFD85C001FA725 /* Jule4.txt in Resources */,
+				D48A2A3B1CAFD85C001FA725 /* November8.txt in Resources */,
+				D48A29531CAFD85C001FA725 /* avgust19.txt in Resources */,
+				D48A2AA51CAFE348001FA725 /* May16.txt in Resources */,
+				D48A29D81CAFD85C001FA725 /* Jule29.txt in Resources */,
+				D48A2A6B1CAFD85C001FA725 /* September23.txt in Resources */,
+				D48A2A341CAFD85C001FA725 /* November29.txt in Resources */,
+				D48A29E41CAFD85C001FA725 /* June11.txt in Resources */,
+				D48A29E91CAFD85C001FA725 /* June16.txt in Resources */,
+				D48A27FD1CAFD81E001FA725 /* April21.txt in Resources */,
+				D48A27F51CAFD81E001FA725 /* April14.txt in Resources */,
+				D48A29541CAFD85C001FA725 /* avgust2.txt in Resources */,
+				D48A2A6D1CAFD85C001FA725 /* September25.txt in Resources */,
+				D48A29761CAFD85C001FA725 /* December22.txt in Resources */,
+				D48A2A701CAFD85C001FA725 /* September28.txt in Resources */,
+				D48A29AE1CAFD85C001FA725 /* Junuary19.txt in Resources */,
+				D4A303361C9C332000D674E5 /* Button.png in Resources */,
+				D48A29D31CAFD85C001FA725 /* Jule24.txt in Resources */,
+				D48A298D1CAFD85C001FA725 /* February15.txt in Resources */,
+				D48A29E11CAFD85C001FA725 /* Jule9.txt in Resources */,
+				D48A29A61CAFD85C001FA725 /* Junuary11.txt in Resources */,
+				D48A295A1CAFD85C001FA725 /* avgust25.txt in Resources */,
+				D48A297E1CAFD85C001FA725 /* December3.txt in Resources */,
+				D48A2A721CAFD85C001FA725 /* September3.txt in Resources */,
+				D48A28011CAFD81E001FA725 /* April25.txt in Resources */,
+				D48A2A691CAFD85C001FA725 /* September21.txt in Resources */,
+				D48A29B01CAFD85C001FA725 /* Junuary20.txt in Resources */,
+				D48A2A371CAFD85C001FA725 /* November4.txt in Resources */,
+				D48A27F71CAFD81E001FA725 /* April16.txt in Resources */,
+				D48A29F91CAFD85C001FA725 /* June30.txt in Resources */,
+				D48A27F21CAFD81E001FA725 /* April11.txt in Resources */,
+				D48A29D21CAFD85C001FA725 /* Jule23.txt in Resources */,
+				D48A2AB41CAFE348001FA725 /* May3.txt in Resources */,
+				D48A29601CAFD85C001FA725 /* avgust30.txt in Resources */,
+				D4FA3A851C8F22BF001C27C5 /* March16.txt in Resources */,
+				D48A2A561CAFD85C001FA725 /* October4.txt in Resources */,
+				D48A29BF1CAFD85C001FA725 /* Junuary6.txt in Resources */,
+				D48A29BD1CAFD85C001FA725 /* Junuary4.txt in Resources */,
+				D48A2A481CAFD85C001FA725 /* October2.txt in Resources */,
+				D48A2A541CAFD85C001FA725 /* October30.txt in Resources */,
+				D4FA3A811C8F22BF001C27C5 /* March12.txt in Resources */,
+				D4FA3A761C8F22BF001C27C5 /* March1.txt in Resources */,
+				D48A2A5F1CAFD85C001FA725 /* September12.txt in Resources */,
+				D48A2A731CAFD85C001FA725 /* September30.txt in Resources */,
+				D48A29951CAFD85C001FA725 /* February22.txt in Resources */,
+				D48A296A1CAFD85C001FA725 /* December11.txt in Resources */,
+				D48A2A281CAFD85C001FA725 /* November18.txt in Resources */,
+				D4FA3A791C8F22BF001C27C5 /* March4.txt in Resources */,
+				D48A29E71CAFD85C001FA725 /* June14.txt in Resources */,
+				D48A2A251CAFD85C001FA725 /* November15.txt in Resources */,
+				D48A29871CAFD85C001FA725 /* February1.txt in Resources */,
+				D48A29AA1CAFD85C001FA725 /* Junuary15.txt in Resources */,
+				D48A2A501CAFD85C001FA725 /* October27.txt in Resources */,
+				D48A2A4A1CAFD85C001FA725 /* October21.txt in Resources */,
+				D48A27F91CAFD81E001FA725 /* April18.txt in Resources */,
+				D48A295F1CAFD85C001FA725 /* avgust3.txt in Resources */,
+				D48A29571CAFD85C001FA725 /* avgust22.txt in Resources */,
+				D48A29EE1CAFD85C001FA725 /* June20.txt in Resources */,
+				D48A29831CAFD85C001FA725 /* December6.txt in Resources */,
+				D48A29D41CAFD85C001FA725 /* Jule25.txt in Resources */,
+				D48A2A611CAFD85C001FA725 /* September14.txt in Resources */,
+				D48A29C91CAFD85C001FA725 /* Jule15.txt in Resources */,
+				D48A29FE1CAFD85C001FA725 /* June8.txt in Resources */,
+				D48A29B31CAFD85C001FA725 /* Junuary23.txt in Resources */,
+				D48A296B1CAFD85C001FA725 /* December12.txt in Resources */,
+				D48A2A2D1CAFD85C001FA725 /* November22.txt in Resources */,
+				D48A2A6C1CAFD85C001FA725 /* September24.txt in Resources */,
+				D4A303411C9C3C7500D674E5 /* FON.png in Resources */,
+				D48A29F71CAFD85C001FA725 /* June29.txt in Resources */,
+				D48A29E81CAFD85C001FA725 /* June15.txt in Resources */,
+				D48A29901CAFD85C001FA725 /* February18.txt in Resources */,
+				D48A29E21CAFD85C001FA725 /* June1.txt in Resources */,
+				D48A2A601CAFD85C001FA725 /* September13.txt in Resources */,
+				D4FA3A8F1C8F22BF001C27C5 /* March26.txt in Resources */,
+				D48A28091CAFD81E001FA725 /* April5.txt in Resources */,
+				D48A297A1CAFD85C001FA725 /* December26.txt in Resources */,
+				D48A29CE1CAFD85C001FA725 /* Jule2.txt in Resources */,
+				D48A297B1CAFD85C001FA725 /* December27.txt in Resources */,
+				D4FA3A901C8F22BF001C27C5 /* March27.txt in Resources */,
+				D48A29E61CAFD85C001FA725 /* June13.txt in Resources */,
+				D48A2A631CAFD85C001FA725 /* September16.txt in Resources */,
+				D4FA3A7A1C8F22BF001C27C5 /* March5.txt in Resources */,
+				D4A303371C9C332000D674E5 /* Button@2x.png in Resources */,
+				D48A29A51CAFD85C001FA725 /* Junuary10.txt in Resources */,
+				D48A2A271CAFD85C001FA725 /* November17.txt in Resources */,
+				D48A29B71CAFD85C001FA725 /* Junuary27.txt in Resources */,
+				D48A28061CAFD81E001FA725 /* April3.txt in Resources */,
+				D48A298C1CAFD85C001FA725 /* February14.txt in Resources */,
+				D48A2AB81CAFE348001FA725 /* May5.txt in Resources */,
+				D48A29C01CAFD85C001FA725 /* Junuary7.txt in Resources */,
+				D48A2AA71CAFE348001FA725 /* May18.txt in Resources */,
+				D4FA3A7F1C8F22BF001C27C5 /* March10.txt in Resources */,
+				D48A2A531CAFD85C001FA725 /* October3.txt in Resources */,
+				D48A27FF1CAFD81E001FA725 /* April23.txt in Resources */,
+				D48A29C21CAFD85C001FA725 /* Junuary9.txt in Resources */,
+				D48A29C81CAFD85C001FA725 /* Jule14.txt in Resources */,
+				D48A2A681CAFD85C001FA725 /* September20.txt in Resources */,
+				D48A29FA1CAFD85C001FA725 /* June4.txt in Resources */,
+				D48A2A651CAFD85C001FA725 /* September18.txt in Resources */,
+				D48A2A5A1CAFD85C001FA725 /* October8.txt in Resources */,
+				D48A29E51CAFD85C001FA725 /* June12.txt in Resources */,
+				D48A29EB1CAFD85C001FA725 /* June18.txt in Resources */,
+				D48A2AAC1CAFE348001FA725 /* May22.txt in Resources */,
+				D48A29621CAFD85C001FA725 /* avgust4.txt in Resources */,
+				D48A2AA91CAFE348001FA725 /* May2.txt in Resources */,
+				D48A2A551CAFD85C001FA725 /* October31.txt in Resources */,
+				D48A2A3D1CAFD85C001FA725 /* October1.txt in Resources */,
+				D48A29891CAFD85C001FA725 /* February11.txt in Resources */,
+				D48A2AB51CAFE348001FA725 /* May30.txt in Resources */,
+				D48A2A3C1CAFD85C001FA725 /* November9.txt in Resources */,
+				D48A29961CAFD85C001FA725 /* February23.txt in Resources */,
+				D48A29C61CAFD85C001FA725 /* Jule12.txt in Resources */,
+				D48A29B11CAFD85C001FA725 /* Junuary21.txt in Resources */,
+				D48A2AAB1CAFE348001FA725 /* May21.txt in Resources */,
+				D48A29701CAFD85C001FA725 /* December17.txt in Resources */,
+				D48A29921CAFD85C001FA725 /* February2.txt in Resources */,
+				D4FA3A8E1C8F22BF001C27C5 /* March25.txt in Resources */,
+				D48A297F1CAFD85C001FA725 /* December30.txt in Resources */,
+				D48A2A211CAFD85C001FA725 /* November11.txt in Resources */,
+				D48A2A351CAFD85C001FA725 /* November3.txt in Resources */,
+				D48A2A7D1CAFDF82001FA725 /* button3.png in Resources */,
+				D48A299E1CAFD85C001FA725 /* February4.txt in Resources */,
+				D48A2A3E1CAFD85C001FA725 /* October10.txt in Resources */,
+				D48A2A4E1CAFD85C001FA725 /* October25.txt in Resources */,
+				D48A29631CAFD85C001FA725 /* avgust5.txt in Resources */,
+				D48A29491CAFD85C001FA725 /* avgust1.txt in Resources */,
+				D48A29AB1CAFD85C001FA725 /* Junuary16.txt in Resources */,
+				D48A28031CAFD81E001FA725 /* April27.txt in Resources */,
+				D48A2A711CAFD85C001FA725 /* September29.txt in Resources */,
+				D4A303391C9C332000D674E5 /* ButtonHighlighted@2x.png in Resources */,
+				D48A2AB31CAFE348001FA725 /* May29.txt in Resources */,
+				D48A29CF1CAFD85C001FA725 /* Jule20.txt in Resources */,
+				D48A2A6E1CAFD85C001FA725 /* September26.txt in Resources */,
+				D48A29A81CAFD85C001FA725 /* Junuary13.txt in Resources */,
+				D4FA3A861C8F22BF001C27C5 /* March17.txt in Resources */,
+				D48A29671CAFD85C001FA725 /* avgust9.txt in Resources */,
+				D48A29F61CAFD85C001FA725 /* June28.txt in Resources */,
+				D48A2A311CAFD85C001FA725 /* November26.txt in Resources */,
+				D48A29F11CAFD85C001FA725 /* June23.txt in Resources */,
+				D48A2ABC1CAFE348001FA725 /* May9.txt in Resources */,
+				D48A29F21CAFD85C001FA725 /* June24.txt in Resources */,
+				D48A29561CAFD85C001FA725 /* avgust21.txt in Resources */,
+				D48A2AA01CAFE348001FA725 /* May11.txt in Resources */,
+				D48A29991CAFD85C001FA725 /* February26.txt in Resources */,
+				D48A2AAE1CAFE348001FA725 /* May24.txt in Resources */,
+				D48A29B61CAFD85C001FA725 /* Junuary26.txt in Resources */,
+				D48A29D91CAFD85C001FA725 /* Jule3.txt in Resources */,
+				D48A2A291CAFD85C001FA725 /* November19.txt in Resources */,
+				D48A2AB01CAFE348001FA725 /* May26.txt in Resources */,
+				D48A2A321CAFD85C001FA725 /* November27.txt in Resources */,
+				D48A29F81CAFD85C001FA725 /* June3.txt in Resources */,
+				D48A29861CAFD85C001FA725 /* December9.txt in Resources */,
+				D4FA3A8C1C8F22BF001C27C5 /* March23.txt in Resources */,
+				D48A2AB91CAFE348001FA725 /* May6.txt in Resources */,
+				D48A28071CAFD81E001FA725 /* April30.txt in Resources */,
+				D48A2A421CAFD85C001FA725 /* October14.txt in Resources */,
+				D4FA3A891C8F22BF001C27C5 /* March20.txt in Resources */,
+				D48A280C1CAFD81E001FA725 /* April8.txt in Resources */,
+				D48A2A401CAFD85C001FA725 /* October12.txt in Resources */,
+				D48A298F1CAFD85C001FA725 /* February17.txt in Resources */,
+				D48A280A1CAFD81E001FA725 /* April6.txt in Resources */,
+				D48A2A411CAFD85C001FA725 /* October13.txt in Resources */,
+				D48A29651CAFD85C001FA725 /* avgust7.txt in Resources */,
+				D48A2AA41CAFE348001FA725 /* May15.txt in Resources */,
+				D48A2A491CAFD85C001FA725 /* October20.txt in Resources */,
+				D48A2A9F1CAFE348001FA725 /* May10.txt in Resources */,
+				D48A28021CAFD81E001FA725 /* April26.txt in Resources */,
+				D48A27FE1CAFD81E001FA725 /* April22.txt in Resources */,
+				D48A29711CAFD85C001FA725 /* December18.txt in Resources */,
+				D48A27F61CAFD81E001FA725 /* April15.txt in Resources */,
+				D48A29C71CAFD85C001FA725 /* Jule13.txt in Resources */,
+				D48A29FF1CAFD85C001FA725 /* June9.txt in Resources */,
+				D48A2AAF1CAFE348001FA725 /* May25.txt in Resources */,
+				D48A29BE1CAFD85C001FA725 /* Junuary5.txt in Resources */,
+				D48A29F31CAFD85C001FA725 /* June25.txt in Resources */,
+				D48A29C11CAFD85C001FA725 /* Junuary8.txt in Resources */,
+				D48A2A3F1CAFD85C001FA725 /* October11.txt in Resources */,
+				D48A29DF1CAFD85C001FA725 /* Jule7.txt in Resources */,
+				D48A2A511CAFD85C001FA725 /* October28.txt in Resources */,
+				D48A29521CAFD85C001FA725 /* avgust18.txt in Resources */,
+				D48A280D1CAFD81E001FA725 /* April9.txt in Resources */,
+				D4FA3A7B1C8F22BF001C27C5 /* March6.txt in Resources */,
+				D4FA3A911C8F22BF001C27C5 /* March28.txt in Resources */,
+				D48A29731CAFD85C001FA725 /* December2.txt in Resources */,
+				D48A2A261CAFD85C001FA725 /* November16.txt in Resources */,
+				D48A2A301CAFD85C001FA725 /* November25.txt in Resources */,
+				D48A29691CAFD85C001FA725 /* December10.txt in Resources */,
+				D48A29771CAFD85C001FA725 /* December23.txt in Resources */,
+				D48A2A6F1CAFD85C001FA725 /* September27.txt in Resources */,
+				D48A29D61CAFD85C001FA725 /* Jule27.txt in Resources */,
+				D48A2A3A1CAFD85C001FA725 /* November7.txt in Resources */,
+				D48A299F1CAFD85C001FA725 /* February5.txt in Resources */,
+				D48A2A2B1CAFD85C001FA725 /* November20.txt in Resources */,
+				D48A29B91CAFD85C001FA725 /* Junuary29.txt in Resources */,
+				D48A29E01CAFD85C001FA725 /* Jule8.txt in Resources */,
+				D48A29BC1CAFD85C001FA725 /* Junuary31.txt in Resources */,
+				D48A298B1CAFD85C001FA725 /* February13.txt in Resources */,
+				D48A2ABA1CAFE348001FA725 /* May7.txt in Resources */,
+				D48A29BA1CAFD85C001FA725 /* Junuary3.txt in Resources */,
+				D4FA3A801C8F22BF001C27C5 /* March11.txt in Resources */,
+				D48A28001CAFD81E001FA725 /* April24.txt in Resources */,
+				D48A29511CAFD85C001FA725 /* avgust17.txt in Resources */,
+				D48A29A91CAFD85C001FA725 /* Junuary14.txt in Resources */,
+				D48A29821CAFD85C001FA725 /* December5.txt in Resources */,
+				D48A297D1CAFD85C001FA725 /* December29.txt in Resources */,
+				D4FA3A941C8F22BF001C27C5 /* March31.txt in Resources */,
+				D48A27F01CAFD81E001FA725 /* April1.txt in Resources */,
+				D48A2A751CAFD85C001FA725 /* September5.txt in Resources */,
+				D48A2A441CAFD85C001FA725 /* October16.txt in Resources */,
+				D48A29F41CAFD85C001FA725 /* June26.txt in Resources */,
+				D4FA3A821C8F22BF001C27C5 /* March13.txt in Resources */,
+				D48A29BB1CAFD85C001FA725 /* Junuary30.txt in Resources */,
+				D48A29DA1CAFD85C001FA725 /* Jule30.txt in Resources */,
+				D48A29581CAFD85C001FA725 /* avgust23.txt in Resources */,
+				D48A2A451CAFD85C001FA725 /* October17.txt in Resources */,
+				D48A29811CAFD85C001FA725 /* December4.txt in Resources */,
+				D48A29DB1CAFD85C001FA725 /* Jule31.txt in Resources */,
+				D4A3033F1C9C3C4C00D674E5 /* fon2.png in Resources */,
+				D48A2A5B1CAFD85C001FA725 /* October9.txt in Resources */,
+				D4A303381C9C332000D674E5 /* ButtonHighlighted.png in Resources */,
+				D4FA3A831C8F22BF001C27C5 /* March14.txt in Resources */,
+				D48A2A241CAFD85C001FA725 /* November14.txt in Resources */,
+				D48A29ED1CAFD85C001FA725 /* June2.txt in Resources */,
+				D48A29841CAFD85C001FA725 /* December7.txt in Resources */,
+				D48A2AA31CAFE348001FA725 /* May14.txt in Resources */,
+				D48A29881CAFD85C001FA725 /* February10.txt in Resources */,
+				D48A2AB11CAFE348001FA725 /* May27.txt in Resources */,
+				D48A27FA1CAFD81E001FA725 /* April19.txt in Resources */,
+				D48A2A4F1CAFD85C001FA725 /* October26.txt in Resources */,
+				D48A2A671CAFD85C001FA725 /* September2.txt in Resources */,
+				D48A27F11CAFD81E001FA725 /* April10.txt in Resources */,
+				D48A2A741CAFD85C001FA725 /* September4.txt in Resources */,
+				D4FA3A8A1C8F22BF001C27C5 /* March21.txt in Resources */,
+				D48A29C31CAFD85C001FA725 /* Jule1.txt in Resources */,
+				D48A2A381CAFD85C001FA725 /* November5.txt in Resources */,
+				D48A29721CAFD85C001FA725 /* December19.txt in Resources */,
+				D48A296D1CAFD85C001FA725 /* December14.txt in Resources */,
+				D48A299D1CAFD85C001FA725 /* February3.txt in Resources */,
+				D48A29AC1CAFD85C001FA725 /* Junuary17.txt in Resources */,
+				D48A28081CAFD81E001FA725 /* April4.txt in Resources */,
+				D4FA3A881C8F22BF001C27C5 /* March19.txt in Resources */,
+				D48A27F31CAFD81E001FA725 /* April12.txt in Resources */,
+				D48A29E31CAFD85C001FA725 /* June10.txt in Resources */,
+				D48A29FD1CAFD85C001FA725 /* June7.txt in Resources */,
+				D48A2A4B1CAFD85C001FA725 /* October22.txt in Resources */,
+				D48A280B1CAFD81E001FA725 /* April7.txt in Resources */,
+				D48A2A5D1CAFD85C001FA725 /* September10.txt in Resources */,
+				D48A296C1CAFD85C001FA725 /* December13.txt in Resources */,
+				D48A2AA81CAFE348001FA725 /* May19.txt in Resources */,
+				D48A29CD1CAFD85C001FA725 /* Jule19.txt in Resources */,
+				D48A29981CAFD85C001FA725 /* February25.txt in Resources */,
+				D4FA3A7C1C8F22BF001C27C5 /* March7.txt in Resources */,
+				D48A29B41CAFD85C001FA725 /* Junuary24.txt in Resources */,
+				D48A2A5C1CAFD85C001FA725 /* September1.txt in Resources */,
+				D48A29DD1CAFD85C001FA725 /* Jule5.txt in Resources */,
+				D48A2A391CAFD85C001FA725 /* November6.txt in Resources */,
+				D48A2A201CAFD85C001FA725 /* November10.txt in Resources */,
+				D48A29611CAFD85C001FA725 /* avgust31.txt in Resources */,
+				D48A29AF1CAFD85C001FA725 /* Junuary2.txt in Resources */,
+				D48A29591CAFD85C001FA725 /* avgust24.txt in Resources */,
+				D48A2A4C1CAFD85C001FA725 /* October23.txt in Resources */,
+				D48A29C41CAFD85C001FA725 /* Jule10.txt in Resources */,
+				D48A2A571CAFD85C001FA725 /* October5.txt in Resources */,
+				D48A29B21CAFD85C001FA725 /* Junuary22.txt in Resources */,
+				D48A2A621CAFD85C001FA725 /* September15.txt in Resources */,
+				D4FA3A921C8F22BF001C27C5 /* March29.txt in Resources */,
+				D4FA3A841C8F22BF001C27C5 /* March15.txt in Resources */,
+				D48A29F51CAFD85C001FA725 /* June27.txt in Resources */,
+				D48A29971CAFD85C001FA725 /* February24.txt in Resources */,
+				D48A29B51CAFD85C001FA725 /* Junuary25.txt in Resources */,
+				D48A2A471CAFD85C001FA725 /* October19.txt in Resources */,
+				D48A2AAA1CAFE348001FA725 /* May20.txt in Resources */,
+				D48A299A1CAFD85C001FA725 /* February27.txt in Resources */,
+				D48A29A31CAFD85C001FA725 /* February9.txt in Resources */,
+				D48A2A761CAFD85C001FA725 /* September6.txt in Resources */,
+				D48A2A4D1CAFD85C001FA725 /* October24.txt in Resources */,
+				D48A2A591CAFD85C001FA725 /* October7.txt in Resources */,
+				D48A29CC1CAFD85C001FA725 /* Jule18.txt in Resources */,
+				D48A299C1CAFD85C001FA725 /* February29.txt in Resources */,
+				D48A295C1CAFD85C001FA725 /* avgust27.txt in Resources */,
+				D48A29A01CAFD85C001FA725 /* February6.txt in Resources */,
+				D48A29D71CAFD85C001FA725 /* Jule28.txt in Resources */,
+				D4FA3A7D1C8F22BF001C27C5 /* March8.txt in Resources */,
+				D48A29781CAFD85C001FA725 /* December24.txt in Resources */,
+				D48A28051CAFD81E001FA725 /* April29.txt in Resources */,
+				D48A2AA61CAFE348001FA725 /* May17.txt in Resources */,
+				D48A2A2E1CAFD85C001FA725 /* November23.txt in Resources */,
+				D48A2A361CAFD85C001FA725 /* November30.txt in Resources */,
+				D48A27F81CAFD81E001FA725 /* April17.txt in Resources */,
+				D48A29751CAFD85C001FA725 /* December21.txt in Resources */,
+				D48A29CB1CAFD85C001FA725 /* Jule17.txt in Resources */,
+				D48A29661CAFD85C001FA725 /* avgust8.txt in Resources */,
+				D48A2A641CAFD85C001FA725 /* September17.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +1876,7 @@
 				40709562173BCA2900F6750E /* main.m in Sources */,
 				40709566173BCA2900F6750E /* AppDelegate.m in Sources */,
 				40709572173BCA2A00F6750E /* ViewController.m in Sources */,
+				4025F2E6174636980027BFFD /* Today.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +1940,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -347,7 +1952,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -371,7 +1976,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -381,10 +1986,17 @@
 		4070958B173BCA2A00F6750E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Just for Today/Just for Today-Prefix.pch";
 				INFOPLIST_FILE = "Just for Today/Just for Today-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "anhor.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +2004,17 @@
 		4070958C173BCA2A00F6750E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Just for Today/Just for Today-Prefix.pch";
 				INFOPLIST_FILE = "Just for Today/Just for Today-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "anhor.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -411,6 +2030,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Just for Today/Just for Today-Prefix.pch";
 				INFOPLIST_FILE = "Just for TodayTests/Just for TodayTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "anhor.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -428,6 +2048,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Just for Today/Just for Today-Prefix.pch";
 				INFOPLIST_FILE = "Just for TodayTests/Just for TodayTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "anhor.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -453,6 +2074,7 @@
 				4070958C173BCA2A00F6750E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4070958D173BCA2A00F6750E /* Build configuration list for PBXNativeTarget "Just for TodayTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +2083,7 @@
 				4070958F173BCA2A00F6750E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
