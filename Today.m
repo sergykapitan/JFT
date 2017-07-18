@@ -1635,16 +1635,7 @@
         _Text2.text = stringFromFileAtPath;
         
     }
-    if ([date isEqualToString:@"07 23"]) {
-        NSLog(@"Заебись");
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"June23" ofType:@"txt"];
-        
-        NSError *error;
-        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-        
-        _Text2.text = stringFromFileAtPath;
-        
-    }
+    
     if ([date isEqualToString:@"07 24"]) {
         NSLog(@"Заебись");
         NSString *path = [[NSBundle mainBundle] pathForResource:@"June24" ofType:@"txt"];
@@ -1970,16 +1961,7 @@
         _Text2.text = stringFromFileAtPath;
         
     }
-    if ([date isEqualToString:@"08 23"]) {
-        NSLog(@"Заебись");
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"avgust23" ofType:@"txt"];
-        
-        NSError *error;
-        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-        
-        _Text2.text = stringFromFileAtPath;
-        
-    }
+    
     if ([date isEqualToString:@"08 24"]) {
         NSLog(@"Заебись");
         NSString *path = [[NSBundle mainBundle] pathForResource:@"avgust24" ofType:@"txt"];
@@ -2305,17 +2287,7 @@
         _Text2.text = stringFromFileAtPath;
         
     }
-    if ([date isEqualToString:@"09 23"]) {
-        NSLog(@"Заебись");
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"September23" ofType:@"txt"];
-        
-        NSError *error;
-        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-        
-        _Text2.text = stringFromFileAtPath;
-        
-    }
-    if ([date isEqualToString:@"09 24"]) {
+        if ([date isEqualToString:@"09 24"]) {
         NSLog(@"Заебись");
         NSString *path = [[NSBundle mainBundle] pathForResource:@"September24" ofType:@"txt"];
         
@@ -2400,7 +2372,650 @@
     }
 
     //October
+    if ([date isEqualToString:@"10 1"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October1" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 2"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October2" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 3"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October3" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 4"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October4" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 5"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October5" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 6"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October6" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 7"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October7" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 8"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October8" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 9"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October9" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 10"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October10" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 11"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October11" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 12"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October12" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 13"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October13" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 14"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October14" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 15"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October15" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 16"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October16" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 17"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October17" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 18"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October18" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 19"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October19" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 20"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October20" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 21"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October21" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 22"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October22" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 23"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October23" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 24"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October24" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 25"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October25" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 26"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October26" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 27"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October27" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 28"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October28" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 29"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October29" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"10 30"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October30" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"10 31"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"October31" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
     //November
+    
+    if ([date isEqualToString:@"11 1"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November1" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 2"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November2" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 3"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November3" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 4"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November4" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 5"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November5" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 6"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November6" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 7"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November7" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 8"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November8" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 9"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November9" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 10"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November10" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 11"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November11" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 12"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November12" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 13"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November13" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 14"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November14" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 15"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November15" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 16"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November16" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 17"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November17" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 18"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November18" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 19"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November19" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 20"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November20" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 21"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November21" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 22"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November22" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 23"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November23" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 24"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November24" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 25"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November25" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 26"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November26" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 27"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November27" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 28"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November28" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 29"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November29" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    if ([date isEqualToString:@"11 30"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November30" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+        
+    }
+    
+    if ([date isEqualToString:@"11 31"]) {
+        NSLog(@"Заебись");
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"November31" ofType:@"txt"];
+        
+        NSError *error;
+        NSString *stringFromFileAtPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
+        _Text2.text = stringFromFileAtPath;
+    }
+    
     //December
     //February
     
